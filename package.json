@@ -1,0 +1,26 @@
+{
+  "name": "nerrecognition",
+  "version": "1.0.0",
+  "description": "Three different frameworks were used for compare results of NER recognition (only `PERSON` type)",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "progressbar": "^1.3.0",
+    "xlsx": "^0.14.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turovnd/NERRecognition.git"
+  },
+  "author": "Nikolay Turov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turovnd/NERRecognition/issues"
+  },
+  "homepage": "https://github.com/turovnd/NERRecognition#readme"
+}
