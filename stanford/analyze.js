@@ -24,7 +24,7 @@ let readDataset = () => {
 
 let matchNames = (arr1, arr2) => {
     for (let i in arr2) {
-        if (arr1.indexOf(arr2[i]) === -1) {
+        if (arr1.indexOf(arr2[i].text) === -1) {
             return false
         }
     }
@@ -60,14 +60,17 @@ let analyzeItem = async (item) => {
         }
     }
     attempt = 0;
-    let nerArr = entities.find(item => item.ner === "PERSON") || [];
+    let nerArr = entities.filter(item => item.ner === "PERSON") || [];
+
     if (item["has person"] === "-") {
         return Object.assign({
-            type: nerArr.length > 0 ? "FP" : "TN"
+            type: nerArr.length > 0 ? "FP" : "TN",
+            ner_names: nerArr.map(item => item.text)
         }, item);
     } else {
         return Object.assign({
-            type: matchNames(item.names, nerArr) ? "TP" : "FN"
+            type: matchNames(item.names, nerArr) ? "TP" : "FN",
+            ner_names: nerArr.map(item => item.text)
         }, item);
     }
 };
