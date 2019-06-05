@@ -2,8 +2,11 @@ const XLSX = require('xlsx');
 const fs = require('fs');
 const path = require('path');
 
-let inputFile = process.argv.indexOf("--index") > -1 ? process.argv[process.argv.indexOf("--index") + 1] : path.resolve("./data/dataset.xlsx");
-let outputFile = process.argv.indexOf("--output") > -1 ? process.argv[process.argv.indexOf("--output") + 1] : path.resolve("./data/dataset.json");
+let inputFile = process.argv.indexOf("--input") > -1 ? process.argv[process.argv.indexOf("--input") + 1] : "./data/dataset.xlsx";
+let outputFile = process.argv.indexOf("--output") > -1 ? process.argv[process.argv.indexOf("--output") + 1] : "./data/dataset.json";
+
+inputFile = path.resolve(inputFile);
+outputFile = path.resolve(outputFile);
 
 try {
     let file = XLSX.readFile(inputFile);

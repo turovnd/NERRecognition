@@ -1,26 +1,13 @@
-const fs = require('fs');
 const axios = require('axios');
+const path = require('path');
 const progress = require('progressbar').create();
+const utils = require('../utils');
 
-const inputFile = "./data/dataset.json";
-const outputFile = "./data/dataset_stanford.json";
+const inputFile = path.resolve("./data/dataset.json");
+const outputFile = path.resolve("./data/dataset_stanford.json");
 const serverUrl = "http://localhost:9000";
 
 let attempt = 0;
-
-let dataset = null;
-
-let readDataset = () => {
-    return new Promise(resolve => {
-        try {
-            dataset = fs.readFileSync(inputFile).toString( "utf-8" );
-            dataset = JSON.parse(dataset);
-            resolve()
-        } catch(err) {
-            throw new Error("Error on reading dataset: " + err.toString());
-        }
-    })
-};
 
 let matchNames = (arr1, arr2) => {
     for (let i in arr2) {
@@ -77,7 +64,7 @@ let analyzeItem = async (item) => {
 
 
 let init = async () => {
-    await readDataset();
+    let dataset = await utils.readDataset(inputFile);
     let results = [];
     let total = Object.keys(dataset).length;
     progress.step('Dataset Analysis').setTotal(total);
@@ -87,7 +74,7 @@ let init = async () => {
         progress.addTick();
     }
     progress.finish();
-    fs.writeFileSync(outputFile, JSON.stringify(results, null, 2));
+    await utils.saveDataset(outputFile, JSON.stringify(results, null, 2));
 };
 
 init();
