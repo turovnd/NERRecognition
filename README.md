@@ -60,4 +60,6 @@ node ./stanford/results.js
 
 
 ## References
-1. CoreNLPContainer https://github.com/Nepomuceno/CoreNLPContainer
+1. [CoreNLPContainer](https://github.com/Nepomuceno/CoreNLPContainer)
+2. [Oxford Dictionary of Names](https://www.oxfordreference.com/view/10.1093/acref/9780198610601.001.0001/acref-9780198610601?btog=chap&hide=true&pageSize=100&skipEditions=true&sort=titlesort&source=%2F10.1093%2Facref%2F9780198610601.001.0001%2Facref-9780198610601)
+3. [Dictionary of Surnames](http://www.namenforschung.net/en/dfd/dictionary/list/)
