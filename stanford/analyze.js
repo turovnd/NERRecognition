@@ -66,11 +66,9 @@ let analyzeItem = async (item) => {
 let init = async () => {
     let dataset = await utils.readDataset(inputFile);
     let results = [];
-    let total = Object.keys(dataset).length;
-    progress.step('Dataset Analysis').setTotal(total);
+    progress.step('Dataset Analysis').setTotal(dataset.length);
     for (let i in dataset) {
         results.push( await analyzeItem(dataset[i]) );
-        // console.log("Step " + i + "/" + total);
         progress.addTick();
     }
     progress.finish();

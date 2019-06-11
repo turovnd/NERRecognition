@@ -1,7 +1,13 @@
 const path = require('path');
-const utils = require('../utils');
+const utils = require('./index');
 
-const inputFile = path.resolve("./data/dataset_stanford.json");
+let inputFile = process.argv.indexOf("--file") > -1 ? process.argv[process.argv.indexOf("--file") + 1] : null;
+
+if(!inputFile) {
+    throw new Error("Missed required parameter `--file`")
+}
+
+inputFile = path.resolve(inputFile);
 
 let matrix = {
     TP : 0, FP : 0, FN : 0, TN : 0
