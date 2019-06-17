@@ -83,9 +83,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Mira"
-    ],
+    "ner_names": [],
     "comment": "Beratung, Antrag Ganztagsplatz für Mira",
     "has person": "+",
     "names": [
@@ -381,7 +379,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Schulbegleitung, Begleitung Ergotherapie, Begleitung Unternehmung,Unternehmung &quot;Schwimmen&quot;",
+    "comment": "Schulbegleitung,  Begleitung Ergotherapie, Begleitung Unternehmung, Unternehmung \"Schwimmen\"",
     "has person": "-"
   },
   {
@@ -411,27 +409,25 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Beratung &quot;Stunden Matiske&quot;",
+    "comment": "Beratung \"Stunden Matiske\"",
     "has person": "+",
     "names": [
       "Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratungs-&quot;Denk&quot;-Runde zur Arbeit mit Fällen",
+    "comment": "Beratungs-\"Denk\"-Runde zur Arbeit mit Fällen",
     "has person": "-"
   },
   {
@@ -442,9 +438,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Kassandra"
-    ],
+    "ner_names": [],
     "comment": "Beratung Kassandra Austausch Schule",
     "has person": "+",
     "names": [
@@ -464,14 +458,14 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
       "Lara"
     ],
     "comment": "Lara körperther. Arbeit Adjuna",
     "has person": "+",
     "names": [
-      "Lara"
+      "Lara Körperther"
     ]
   },
   {
@@ -483,7 +477,8 @@
   {
     "type": "FN",
     "ner_names": [
-      "Angelina 2h"
+      "Angelina",
+      "April"
     ],
     "comment": "Fall Graudenz, Angelina 2h in April",
     "has person": "+",
@@ -499,9 +494,9 @@
     "has person": "-"
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
-      "Nick Elterngespräch"
+      "Nick"
     ],
     "comment": "Schwimmen Nick Elterngespräch",
     "has person": "+",
@@ -536,7 +531,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Besuch in den Beelitzer Heilstätten Netzwerkarbeit Telefonate",
+    "comment": "Besuch in den Beelitzer Heilstätten Netzwerkarbeit  Telefonate",
     "has person": "-"
   },
   {
@@ -578,7 +573,8 @@
   {
     "type": "FN",
     "ner_names": [
-      "Angelina 2h"
+      "Angelina",
+      "April"
     ],
     "comment": "Fall Graudenz, Angelina 2h in April",
     "has person": "+",
@@ -590,7 +586,8 @@
   {
     "type": "FN",
     "ner_names": [
-      "Angelina 4h"
+      "Angelina",
+      "April"
     ],
     "comment": "Fall Graudenz, Angelina 4h in April",
     "has person": "+",
@@ -634,14 +631,12 @@
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
@@ -705,8 +700,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Tel"
+    ],
     "comment": "Brtg, Tel",
     "has person": "-"
   },
@@ -741,8 +738,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Tel"
+    ],
     "comment": "Brtg, NW, Tel",
     "has person": "-"
   },
@@ -759,8 +758,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Tel"
+    ],
     "comment": "NW, Mail, Tel",
     "has person": "-"
   },
@@ -850,7 +851,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Begleitung Zukunft des Internats,",
+    "comment": "Begleitung Zukunft des Internats, Elternabend",
     "has person": "-"
   },
   {
@@ -988,7 +989,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegiale Beratung",
+    "comment": "kollegiale Beratung ",
     "has person": "-"
   },
   {
@@ -1027,9 +1028,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Kassandra"
-    ],
+    "ner_names": [],
     "comment": "unangekündigter HB, Wohnform für Kassandra",
     "has person": "+",
     "names": [
@@ -1051,7 +1050,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachrunde Schule, Schulamt, AfJuS,",
+    "comment": "Fachrunde Schule, Schulamt, AfJuS, GeBEG",
     "has person": "-"
   },
   {
@@ -1121,11 +1120,8 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Hintz",
-      "Ole HPS-Klärung"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Begleitung Trauerfeier Herr Hintz, Praktische Unterstützung und Begleitung Ole HPS-Klärung",
     "has person": "+",
     "names": [
@@ -1514,7 +1510,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Lieferung",
+    "comment": "Lieferung Kühlschrank",
     "has person": "-"
   },
   {
@@ -1614,8 +1610,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Herd"
+    ],
     "comment": "Praktische Unterstützung, Herd organisation und Transport",
     "has person": "-"
   },
@@ -1658,109 +1656,49 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Telefonate Aktivität",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Telefonate Aktivität",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Aktivität Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Organisation der Hilfe",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Sportaktivität",
+    "comment": "Sportaktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Telefonate",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Therapiebegleitung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Krisenarbeit",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Organisation der Hilfe",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Dokumentation",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Beratung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "Netzwerkarbeit Begleitung praktische Unterstützung Beratung Telefonate",
     "has person": "-"
   },
   {
@@ -1772,14 +1710,72 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fallaustausch",
+    "comment": "Therapiebegleitung Beratung Telefonate Netzwerkarbeit",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Krisenarbeit Netzwerk Telefonate kollegialer Fallaustausch",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Organisation der Hilfe Netzwerkarbeit Telefonate Beratung  ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Dokumentation Telefonate Beratung",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Netzwerkarbeit",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Beratung Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Beratung Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "kollegialer Fachaustausch Organisation der Hilfe Aktivität Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "kollegialer Fachaustausch Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "kollegialer Fallaustausch Telefonate",
     "has person": "-"
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Ole"
-    ],
+    "ner_names": [],
     "comment": "Beratung HJC, Maßnahmeträger, Praktische Unterstützung KG für Ole",
     "has person": "+",
     "names": [
@@ -1907,8 +1903,11 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Vater",
+      "Sohn"
+    ],
     "comment": "Körpertherapeutische Aktivität zwischen Vater und Sohn",
     "has person": "-"
   },
@@ -1949,8 +1948,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
-    "ner_names": [],
+    "type": "FN",
+    "ner_names": [
+      "April"
+    ],
     "comment": "Schäfer, 2,5h im April abgerechnet",
     "has person": "+",
     "names": [
@@ -2084,8 +2085,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "April"
+    ],
     "comment": "Bericht abschlußtreffen mit April wegen Krankheit ",
     "has person": "-"
   },
@@ -2126,8 +2129,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
-    "ner_names": [],
+    "type": "FN",
+    "ner_names": [
+      "April"
+    ],
     "comment": "Schäfer, 2,5h im April abgerechnet",
     "has person": "+",
     "names": [
@@ -2135,8 +2140,10 @@
     ]
   },
   {
-    "type": "TP",
-    "ner_names": [],
+    "type": "FN",
+    "ner_names": [
+      "April"
+    ],
     "comment": "Schäfer, 2,5h im April abgerechnet",
     "has person": "+",
     "names": [
@@ -2342,14 +2349,13 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Schneider"
-    ],
-    "comment": "Fall Schneider/ Grüsner ",
+    "type": "TP",
+    "ner_names": [],
+    "comment": "Fall Schneider/ Grüsner  2,25h in Juni bei Kamrath §28 abgerechnet",
     "has person": "+",
     "names": [
-      "Schneider/Grüßner"
+      "Schneider",
+      "Grüsner"
     ]
   },
   {
@@ -2517,12 +2523,13 @@
   {
     "type": "FN",
     "ner_names": [
-      "Schneider"
+      "Mai"
     ],
-    "comment": "Fall Schneider/ Grüsner ",
+    "comment": "Fall Schneider/ Grüsner  2h in Mai bei Kamrath §30 abgerechnet",
     "has person": "+",
     "names": [
-      "Schneider/Grüßner"
+      "Schneider",
+      "Grüsner"
     ]
   },
   {
@@ -2546,12 +2553,13 @@
   {
     "type": "FN",
     "ner_names": [
-      "Schneider"
+      "Mai"
     ],
-    "comment": "Fall Schneider/ Grüsner ",
+    "comment": "Fall Schneider/ Grüsner  2h in Mai bei Kamrath §30 abgerechnet",
     "has person": "+",
     "names": [
-      "Schneider/Grüßner"
+      "Schneider",
+      "Grüsner"
     ]
   },
   {
@@ -2880,9 +2888,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Churt"
-    ],
+    "ner_names": [],
     "comment": "Frau Churt",
     "has person": "+",
     "names": [
@@ -2891,9 +2897,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Munser"
-    ],
+    "ner_names": [],
     "comment": "Herr Munser",
     "has person": "+",
     "names": [
@@ -2901,42 +2905,32 @@
     ]
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Yoga"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Yoga",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Yoga"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Yoga",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Yoga"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Yoga",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Yoga"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Yoga",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Yoga"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Yoga",
     "has person": "-"
   },
@@ -3009,7 +3003,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Fröter -&gt; 2h in Juni",
+    "comment": "Fall Fröter -> 2h in Juni",
     "has person": "+",
     "names": [
       "Fröter"
@@ -3064,9 +3058,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Schneider"
+      "Schneider",
+      "April"
     ],
     "comment": "Fall Schneider 2h in April verschoben",
     "has person": "+",
@@ -3125,6 +3120,12 @@
   {
     "type": "TN",
     "ner_names": [],
+    "comment": " Austausch Akt.Situat.",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
     "comment": "SE",
     "has person": "-"
   },
@@ -3137,12 +3138,13 @@
   {
     "type": "FN",
     "ner_names": [
-      "Schneider"
+      "Mai"
     ],
-    "comment": "Fall Schneider/ Grüsner ",
+    "comment": "Fall Schneider/ Grüsner  2h in Mai bei Kamrath §30 abgerechnet",
     "has person": "+",
     "names": [
-      "Schneider/Grüßner"
+      "Schneider",
+      "Grüsner"
     ]
   },
   {
@@ -3190,7 +3192,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Helferrunde -  Fallbesprechung",
+    "comment": "Helferrunde -  Fallbesprechung Netzwerkarbeit",
     "has person": "-"
   },
   {
@@ -3226,22 +3228,30 @@
   {
     "type": "FP",
     "ner_names": [
-      "Mück"
+      "Mai"
     ],
     "comment": "Fall Mück §28 1h in Mai",
-    "has person": "-"
+    "has person": "-",
+    "names": [
+      "Mück"
+    ]
   },
   {
     "type": "FP",
     "ner_names": [
-      "Mück"
+      "Mai"
     ],
     "comment": "Fall Mück §28 1h in Mai",
-    "has person": "-"
+    "has person": "-",
+    "names": [
+      "Mück"
+    ]
   },
   {
-    "type": "TP",
-    "ner_names": [],
+    "type": "FN",
+    "ner_names": [
+      "April"
+    ],
     "comment": "Schäfer, 2,5h im April abgerechnet",
     "has person": "+",
     "names": [
@@ -3249,8 +3259,10 @@
     ]
   },
   {
-    "type": "TP",
-    "ner_names": [],
+    "type": "FN",
+    "ner_names": [
+      "April"
+    ],
     "comment": "Schäfer, 2,5h im April abgerechnet",
     "has person": "+",
     "names": [
@@ -3264,9 +3276,11 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Antrag auf EB §28 ist gestellt, vermutlich noch in der wirtschaftl. Abteilung",
+    "type": "FP",
+    "ner_names": [
+      "Juli"
+    ],
+    "comment": "Antrag auf EB §28 ist gestellt, vermutlich noch in der wirtschaftl. Abteilung  Fall Dethloff -> 2h in Juli",
     "has person": "-"
   },
   {
@@ -3288,8 +3302,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Tel"
+    ],
     "comment": "Tel ",
     "has person": "-"
   },
@@ -3384,11 +3400,12 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Schindler"
+      "Schindler",
+      "März"
     ],
-    "comment": "Für Fall Schindler (Abs)",
+    "comment": "Für Fall Schindler (Abs) 2,5h in April, da für März keine Kostenzusage",
     "has person": "+",
     "names": [
       "Schindler"
@@ -3401,20 +3418,20 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Dehtloff"
+      "Juli"
     ],
-    "comment": "Fall Dehtloff -&gt; 3h in Juli",
+    "comment": "Fall Dehtloff -> 3h in Juli",
     "has person": "+",
     "names": [
       "Dehtloff"
     ]
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Mück"
+      "Mai"
     ],
     "comment": "Fall Mück §28 3h in Mai",
     "has person": "+",
@@ -3429,9 +3446,9 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Mück"
+      "April"
     ],
     "comment": "Fall Mück 2h in April",
     "has person": "+",
@@ -3440,9 +3457,9 @@
     ]
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Mück"
+      "Mai"
     ],
     "comment": "Fall Mück §28 2h in Mai",
     "has person": "+",
@@ -3453,18 +3470,18 @@
   {
     "type": "FN",
     "ner_names": [
-      "Dethloff"
+      "Juli"
     ],
-    "comment": "Fall Dethloff -&gt; 2h in Juli",
+    "comment": "Fall Dethloff -> 2h in Juli",
     "has person": "+",
     "names": [
-      "Dehtloff"
+      "Dethloff"
     ]
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Mück"
+      "Mai"
     ],
     "comment": "Fall Mück §28 1h in Mai",
     "has person": "+",
@@ -3623,8 +3640,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
-    "ner_names": [],
+    "type": "FN",
+    "ner_names": [
+      "April"
+    ],
     "comment": "Schäfer, 2,5h im April abgerechnet",
     "has person": "+",
     "names": [
@@ -3740,8 +3759,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
-    "ner_names": [],
+    "type": "FN",
+    "ner_names": [
+      "April"
+    ],
     "comment": "Schäfer, 2,5h im April abgerechnet",
     "has person": "+",
     "names": [
@@ -3779,8 +3800,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Tel"
+    ],
     "comment": "Tel",
     "has person": "-"
   },
@@ -3803,10 +3826,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Körpertherapie Koll. Beratung",
     "has person": "-"
   },
@@ -3823,42 +3844,32 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Koll. Austausch ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Koll. Austausch ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Koll. Austausch ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Koll Austausch ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Koll. Austausch ",
     "has person": "-"
   },
@@ -3989,10 +4000,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Körpertherapie  Koll Austausch ",
     "has person": "-"
   },
@@ -4015,10 +4024,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Körpertherapeutisches"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Beratung, Netzwerk, Vorbereitung Körpertherapeutisches Angebot",
     "has person": "-"
   },
@@ -4101,11 +4108,12 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Angelina"
+      "Angelina",
+      "April"
     ],
-    "comment": "Fall Graudenz, Angelina",
+    "comment": "Fall Graudenz, Angelina 1,25h in April",
     "has person": "+",
     "names": [
       "Graudenz",
@@ -4191,17 +4199,15 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Koll Austausch ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung Wohnung",
+    "comment": "Beratung Wohnung und Amt",
     "has person": "-"
   },
   {
@@ -4225,7 +4231,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Austausch",
+    "comment": "kollegialer Austausch ",
     "has person": "-"
   },
   {
@@ -4309,8 +4315,11 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fall Miesenburg -&gt; Stunden in Juni verschoben",
-    "has person": "-"
+    "comment": "Fall Miesenburg -> Stunden in Juni verschoben SE, syst.Fam.arbeit",
+    "has person": "-",
+    "names": [
+      "Miesenburg"
+    ]
   },
   {
     "type": "TN",
@@ -4325,9 +4334,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Jonathan Altrock"
+      "Jonathan",
+      "Juli"
     ],
     "comment": "Fall Jonathan Altrock §28 1h in Juli §31 verschoben",
     "has person": "+",
@@ -4336,16 +4346,17 @@
     ]
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Koll. Beratung",
     "has person": "-"
   },
   {
-    "type": "TP",
-    "ner_names": [],
+    "type": "FN",
+    "ner_names": [
+      "Dienst",
+      "Engel"
+    ],
     "comment": "Begutachtung Medizinischer Dienst HJC, RA Engel",
     "has person": "+",
     "names": [
@@ -4431,13 +4442,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "TN",
     "ner_names": [],
     "comment": "Schuldenregulierung JVA Waldeck",
-    "has person": "+",
-    "names": [
-      "Waldeck"
-    ]
+    "has person": "-"
   },
   {
     "type": "TN",
@@ -4488,14 +4496,13 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Schneider"
-    ],
-    "comment": "Fall Schneider/ Grüsner ",
+    "type": "TP",
+    "ner_names": [],
+    "comment": "Fall Schneider/ Grüsner  2h in Juni bei Kamrath §30 abgerechnet",
     "has person": "+",
     "names": [
-      "Schneider/Grüßner"
+      "Schneider",
+      "Grüsner"
     ]
   },
   {
@@ -4543,67 +4550,67 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachrunde ",
+    "comment": "Fachrunde  kollegialer Fallaustausch  Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Aktivität Beratung Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Therapiebegleitung",
+    "comment": "Therapiebegleitung Netzwerkarbeit Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "HPG",
+    "comment": "HPG Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate kollegialer Fallaustausch",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate kurzfristig abgesagter Termin",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fallaustausch",
+    "comment": "kollegialer Fallaustausch Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Aktivität Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Sportaktivität",
+    "comment": "Sportaktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Sportaktivität",
+    "comment": "Sportaktivität Beratung Telefonate",
     "has person": "-"
   },
   {
@@ -4878,9 +4885,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
@@ -4938,7 +4943,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Garschke -&gt; 2h in Sep",
+    "comment": "Fall Garschke -> 2h in Sep",
     "has person": "+",
     "names": [
       "Garschke"
@@ -4995,7 +5000,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Garschke -&gt; 2h in Sep",
+    "comment": "Fall Garschke -> 2h in Sep",
     "has person": "+",
     "names": [
       "Garschke"
@@ -5009,10 +5014,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Hackbarth"
-    ],
-    "comment": "Fall Hackbarth §28",
+    "ner_names": [],
+    "comment": "Fall Hackbarth §28 Stunden in Juni",
     "has person": "+",
     "names": [
       "Hackbarth"
@@ -5020,10 +5023,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Hackbarth"
-    ],
-    "comment": "Fall Hackbarth §28",
+    "ner_names": [],
+    "comment": "Fall Hackbarth §28 Stunden in Juni",
     "has person": "+",
     "names": [
       "Hackbarth"
@@ -5035,7 +5036,7 @@
     "comment": "Schulbegleitung L.Matiske",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
@@ -5291,9 +5292,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
@@ -5306,7 +5305,7 @@
     "comment": "Schulbegleitung L.Matiske",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
@@ -5579,7 +5578,7 @@
     "comment": "Schulbegleitung L.Matiske",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
@@ -5588,13 +5587,13 @@
     "comment": "Schulbegleitung L.Matiske",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Männerrunde",
+    "comment": "Männerrunde Netzwerkarbeit Fachaustausch",
     "has person": "-"
   },
   {
@@ -5603,55 +5602,55 @@
     "comment": "Schulbegleitung L.Matiske",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Beratung Aktivität",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Beratung Aktivität",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Netzwerkarbeit Fachaustausch Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "fehlgeschlagener Kontakt",
+    "comment": "fehlgeschlagener Kontakt Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate Bildungsaktivität",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Therapiebegleitung",
+    "comment": "Therapiebegleitung Telefonate",
     "has person": "-"
   },
   {
@@ -5702,7 +5701,7 @@
     "comment": "Schulbegleitung L.Matiske",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
@@ -5984,7 +5983,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Unterstützung Haushalt, ",
+    "comment": "Unterstützung Haushalt,  Schwimmhalle Fachaustausch",
     "has person": "-"
   },
   {
@@ -6042,12 +6041,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Schneider"
-    ],
-    "comment": "Fall Schneider/ Grüsner ",
-    "has person": "-"
+    "type": "TP",
+    "ner_names": [],
+    "comment": "Fall Schneider/ Grüsner  2h in Juni bei Kamrath §30 abgerechnet",
+    "has person": "+",
+    "names": [
+      "Schneider",
+      "Grüsner"
+    ]
   },
   {
     "type": "TN",
@@ -6074,11 +6075,11 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Dethloff"
+      "Juli"
     ],
-    "comment": "Fall Dethloff -&gt; 2,5h in Juli",
+    "comment": "Fall Dethloff -> 2,5h in Juli",
     "has person": "+",
     "names": [
       "Dethloff"
@@ -6175,9 +6176,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Lennart"
-    ],
+    "ner_names": [],
     "comment": "Gespräch mit Lennart, Auswertung ",
     "has person": "+",
     "names": [
@@ -6223,7 +6222,37 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "nicht eingehaltender Termin",
+    "comment": "nicht eingehaltender Termin Telefonat",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Telefonate Beratung praktische Unterstützung",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Telefonate kollegialer Fachaustausch",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Telefonate Netzwerkarbeit",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Telefonate Aktivität Beratung",
     "has person": "-"
   },
   {
@@ -6235,55 +6264,25 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Beratung praktische Unterstützung Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Therapiebegleitung Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Beratung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Therapiebegleitung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
@@ -6354,7 +6353,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Horn"
+    ],
     "comment": "Absprachen, Terminorganisation Praxis Horn",
     "has person": "+",
     "names": [
@@ -6448,19 +6449,19 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Netzwerkarbeit Telefonate Organisation der Hilfe ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "&quot;zufällige Begegnung&quot; Schule",
+    "comment": "zufällige Begegnung Schule",
     "has person": "-"
   },
   {
@@ -6517,7 +6518,7 @@
     "comment": "Schulbegleitung L.Matiske",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
@@ -6535,7 +6536,7 @@
     "comment": "Schulbegleitung L.Matiske",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
@@ -6544,7 +6545,7 @@
     "comment": "Begleitung L.Matiske",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
@@ -6553,7 +6554,7 @@
     "comment": "Schulbegleitung L.Matiske",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
@@ -6562,13 +6563,13 @@
     "comment": "Schulbegleitung L.Matiske",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Vorbereitung &quot;Unterricht&quot;",
+    "comment": "Vorbereitung \"Unterricht\"",
     "has person": "-"
   },
   {
@@ -6577,16 +6578,16 @@
     "comment": "Schulbegleitung L.Matiske",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Schulbegleitung L.Matiske",
+    "comment": "Schulbegleitung L.Matiske und Telefonate",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
@@ -6628,13 +6629,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate Netzwerkarbeit kollegialer Fachaustausch",
     "has person": "-"
   },
   {
@@ -6676,7 +6677,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung AJS, Jugendhaus",
     "has person": "-"
   },
   {
@@ -6687,7 +6688,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Horn"
+    ],
     "comment": "Praxis Horn",
     "has person": "+",
     "names": [
@@ -6832,13 +6835,13 @@
     "comment": "Schulbegleitung L.Matiske",
     "has person": "+",
     "names": [
-      "L. Matiske"
+      "L.Matiske"
     ]
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "&quot;Schulsitzung Oberstufe&quot;",
+    "comment": "Schulsitzung Oberstufe",
     "has person": "-"
   },
   {
@@ -6896,34 +6899,26 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Yoga"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Yoga",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Yoga"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Yoga",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Yoga"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Yoga",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Yoga"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Yoga",
     "has person": "-"
   },
@@ -6960,13 +6955,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung praktische Unterstützung Telefonate kollegialer Fallaustausch",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung praktische Unterstützung Telefonate ",
     "has person": "-"
   },
   {
@@ -6978,19 +6973,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Therapiebegleitung",
+    "comment": "Therapiebegleitung  ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Körpertherapie",
+    "comment": "Beratung   ",
     "has person": "-"
   },
   {
@@ -7002,19 +6991,25 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "Körpertherapie",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "kollegialer Fachaustausch   ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "kollegialer Fachaustausch Netzwerkarbeit Telefonate   ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "kollegialer Fachaustausch Netzwerkarbeit Telefonate Aktivität Beratung   ",
     "has person": "-"
   },
   {
@@ -7026,7 +7021,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "kollegialer Fachaustausch Telefonate    ",
     "has person": "-"
   },
   {
@@ -7044,13 +7039,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Beratung ",
     "has person": "-"
   },
   {
@@ -7168,10 +7163,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -7182,15 +7175,20 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "2,5h aus März",
+    "type": "FP",
+    "ner_names": [
+      "März",
+      "Jan"
+    ],
+    "comment": "2,5h aus März 1h aus Jan",
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "9,25h aus März",
+    "type": "FP",
+    "ner_names": [
+      "März"
+    ],
+    "comment": "9,25h aus März 5,5h aus Feb abgerechnet",
     "has person": "-"
   },
   {
@@ -7254,17 +7252,16 @@
     "has person": "-"
   },
   {
-    "type": "TP",
-    "ner_names": [],
-    "comment": "Beratung Träger",
-    "has person": "+",
-    "names": [
-      "Träger"
-    ]
-  },
-  {
     "type": "TN",
     "ner_names": [],
+    "comment": "Beratung Träger",
+    "has person": "-"
+  },
+  {
+    "type": "FP",
+    "ner_names": [
+      "März"
+    ],
     "comment": "Übertrag aus März",
     "has person": "-"
   },
@@ -7539,11 +7536,11 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Dethloff"
+      "Juli"
     ],
-    "comment": "Fall Dethloff -&gt; 1h in Juli",
+    "comment": "Fall Dethloff -> 1h in Juli",
     "has person": "+",
     "names": [
       "Dethloff"
@@ -7688,13 +7685,13 @@
     "has person": "-"
   },
   {
-    "type": "TP",
-    "ner_names": [],
-    "comment": "fache. Austausch körperth. Arbeit, Bildungsangebote Rostock Frieda 23",
-    "has person": "+",
-    "names": [
+    "type": "FP",
+    "ner_names": [
+      "Rostock",
       "Frieda"
-    ]
+    ],
+    "comment": "fache. Austausch körperth. Arbeit, Bildungsangebote Rostock Frieda 23",
+    "has person": "-"
   },
   {
     "type": "TN",
@@ -7998,9 +7995,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Lara"
-    ],
+    "ner_names": [],
     "comment": "Begleitung Lara, Recherche Praktikum und Telefonate",
     "has person": "+",
     "names": [
@@ -8262,7 +8257,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Miesenburg -&gt; Stunden in Juni verschoben",
+    "comment": "Fall Miesenburg -> Stunden in Juni verschoben Fam.syst. Arbeit, SE",
     "has person": "+",
     "names": [
       "Miesenburg"
@@ -8312,10 +8307,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Hackbarth"
-    ],
-    "comment": "Fall Hackbarth §28",
+    "ner_names": [],
+    "comment": "Fall Hackbarth §28 Stunden in Juni",
     "has person": "+",
     "names": [
       "Hackbarth"
@@ -8346,9 +8339,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Jonathan Altrock"
+      "Jonathan",
+      "Juli"
     ],
     "comment": "Fall Jonathan Altrock §28 2h in Juli §31 verschoben",
     "has person": "+",
@@ -8357,9 +8351,10 @@
     ]
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Jonathan Altrock"
+      "Jonathan",
+      "Juli"
     ],
     "comment": "Fall Jonathan Altrock §28 2h in Juli §31 verschoben",
     "has person": "+",
@@ -8387,10 +8382,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Hackbarth"
-    ],
-    "comment": "Fall Hackbarth §28",
+    "ner_names": [],
+    "comment": "Fall Hackbarth §28 Stunden in Juni",
     "has person": "+",
     "names": [
       "Hackbarth"
@@ -8577,23 +8570,27 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "März"
+    ],
     "comment": "15h aus März",
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "März"
+    ],
     "comment": "2h aus März",
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Dethloff"
+      "Juli"
     ],
-    "comment": "Fall Dethloff -&gt; 2,5h in Juli",
+    "comment": "Fall Dethloff -> 2,5h in Juli",
     "has person": "+",
     "names": [
       "Dethloff"
@@ -8626,13 +8623,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Poolstunden &amp;28",
+    "comment": "Poolstunden &28",
     "has person": "-"
   },
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Miesenburg -&gt; Stunden in Juni verschoben",
+    "comment": "Fall Miesenburg -> Stunden in Juni verschoben",
     "has person": "+",
     "names": [
       "Miesenburg"
@@ -8641,7 +8638,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Miesenburg -&gt; Stunden in Juni verschoben",
+    "comment": "Fall Miesenburg -> Stunden in Juni verschoben",
     "has person": "+",
     "names": [
       "Miesenburg"
@@ -8650,7 +8647,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Miesenburg -&gt; Stunden in Juni verschoben",
+    "comment": "Fall Miesenburg -> Stunden in Juni verschoben",
     "has person": "+",
     "names": [
       "Miesenburg"
@@ -8659,7 +8656,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Miesenburg -&gt; Stunden in Juni verschoben",
+    "comment": "Fall Miesenburg -> Stunden in Juni verschoben",
     "has person": "+",
     "names": [
       "Miesenburg"
@@ -8716,7 +8713,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Tel. Austausch,",
+    "comment": "Tel. Austausch, Fachaustausch",
     "has person": "-"
   },
   {
@@ -8822,8 +8819,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
-    "ner_names": [],
+    "type": "FN",
+    "ner_names": [
+      "Mai"
+    ],
     "comment": "Fall Garling §28 2h im Mai abgerechnet",
     "has person": "+",
     "names": [
@@ -8833,24 +8832,28 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Garschke -&gt; 7h in Sep",
+    "comment": "Fall Garschke -> 7h in Sep",
     "has person": "+",
     "names": [
       "Garschke"
     ]
   },
   {
-    "type": "TP",
-    "ner_names": [],
-    "comment": "Fall Garschke -&gt; 1,25h in Juli",
+    "type": "FN",
+    "ner_names": [
+      "Juli"
+    ],
+    "comment": "Fall Garschke -> 1,25h in Juli",
     "has person": "+",
     "names": [
       "Garschke"
     ]
   },
   {
-    "type": "TP",
-    "ner_names": [],
+    "type": "FN",
+    "ner_names": [
+      "Mai"
+    ],
     "comment": "Fall Garling §28 2h im Mai abgerechnet",
     "has person": "+",
     "names": [
@@ -9051,7 +9054,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Begleitung in Mediengruppe &quot;Videospass&quot;",
+    "comment": "Begleitung in Mediengruppe \"Videospass\"",
     "has person": "-"
   },
   {
@@ -9084,7 +9087,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Treffen aller I-Helfer der &quot;Warnowschule&quot;",
+    "comment": "Treffen aller I-Helfer der \"Warnowschule\"",
     "has person": "-"
   },
   {
@@ -9165,121 +9168,85 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Dokumentation",
+    "comment": "Dokumentation Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung,",
+    "comment": "praktische Unterstützung, Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate Aktivität ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate  ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate  ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "kollegialer Fachaustausch  ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "HPG",
+    "comment": "HPG Telefonate  ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Telefonate  ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Telefonate Beratung kollegialer Fachaustausch ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "HPG/ Abschlussgespräch",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Telefonate",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Telefonate",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Netzwerkarbeit",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "HPG/ Abschlussgespräch Dokumentation ",
     "has person": "-"
   },
   {
@@ -9297,19 +9264,55 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Aktivität Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Netzwerkarbeit Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Aktivität Beratung Telefonate ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "praktische Unterstützung Telefonate Aktivität",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Telefonate Therapiebegleitung",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Netzwerkarbeit Fachaustausch Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Netzwerkarbeit Fachaustausch Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Fachaustausch Telefonate",
     "has person": "-"
   },
   {
@@ -9499,8 +9502,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Urlaub"
+    ],
     "comment": "Bereitschaft im Urlaub ",
     "has person": "-"
   },
@@ -9523,26 +9528,34 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "März"
+    ],
     "comment": "2h aus März",
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "März"
+    ],
     "comment": "2h aus März",
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "März"
+    ],
     "comment": "2h aus März",
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "März"
+    ],
     "comment": "1h aus März",
     "has person": "-"
   },
@@ -9556,8 +9569,10 @@
     ]
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "April"
+    ],
     "comment": "2h aus April",
     "has person": "-"
   },
@@ -9702,19 +9717,19 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Jugendhaus",
+    "comment": "Jugendhaus Beratung Telef. Austausch ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Gespräch Jugendamt, ",
+    "comment": "Gespräch Jugendamt,  ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachlicher Austausch",
+    "comment": "Fachlicher Austausch ",
     "has person": "-"
   },
   {
@@ -10038,79 +10053,31 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "AKtivität",
+    "comment": "AKtivität Beratung  Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Telefonate",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Therapiebegleitung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Sportaktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Sportaktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
@@ -10122,7 +10089,55 @@
   {
     "type": "TN",
     "ner_names": [],
+    "comment": "Aktivität Beratung Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Therapiebegleitung Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Beratung Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Beratung Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Sportaktivität Beratung Telefonate kollegialer Fachaustausch",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Sportaktivität Telefonate kollegialer Fachaustausch",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Telefonate Beratung",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
     "comment": "Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Telefonate Beratung kollegialer Fachaustausch",
     "has person": "-"
   },
   {
@@ -10318,8 +10333,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Dienst"
+    ],
     "comment": "Begleitung Schulpsychologischen Dienst",
     "has person": "-"
   },
@@ -10362,25 +10379,19 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Netzwerkarbeit Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Netzwerkarbeit Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Gespräch, Beratung, Aktivität",
+    "comment": "Beratung Aktivität Telefonate",
     "has person": "-"
   },
   {
@@ -10392,7 +10403,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Gespräch, Beratung, Aktivität",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Aktivität Telefonate",
     "has person": "-"
   },
   {
@@ -10410,7 +10427,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Netzwerkarbeit Fachaustausch Telefonate",
     "has person": "-"
   },
   {
@@ -10434,7 +10451,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Fachaustausch",
     "has person": "-"
   },
   {
@@ -10512,7 +10529,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Netzwerkarbeit Fachaustausch Telefonate",
     "has person": "-"
   },
   {
@@ -10524,7 +10541,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Netzwerkarbeit Fachaustausch Telefonate",
     "has person": "-"
   },
   {
@@ -10552,22 +10569,22 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Rehländer"
+      "Juli"
     ],
-    "comment": "Fall Rehländer -&gt; 2h im Juli abgerechnet",
+    "comment": "Fall Rehländer -> 2h im Juli abgerechnet",
     "has person": "+",
     "names": [
       "Rehländer"
     ]
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Rehländer"
+      "Juli"
     ],
-    "comment": "Fall Rehländer -&gt; 1h im Juli abgerechnet",
+    "comment": "Fall Rehländer -> 1h im Juli abgerechnet",
     "has person": "+",
     "names": [
       "Rehländer"
@@ -10594,13 +10611,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Therapiebegleitung",
+    "comment": "Therapiebegleitung Beratung Telefonate Netzwerk",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Fachaustausch",
     "has person": "-"
   },
   {
@@ -10654,7 +10671,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Fachaustausch",
     "has person": "-"
   },
   {
@@ -10796,17 +10813,15 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Datum wegen Kostenzusage vom 03.05. auf 30.05. geändert!!!!",
+    "comment": "Datum wegen Kostenzusage vom 03.05. auf 30.05. geändert!!!! Beratung u Austausch mit Kollegen",
     "has person": "-"
   },
   {
@@ -10852,9 +10867,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Jonathan Altrock"
+      "Jonathan",
+      "Juli"
     ],
     "comment": "Fall Jonathan Altrock §28 2h in Juli §31 verschoben",
     "has person": "+",
@@ -10924,10 +10940,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Röhrdanz"
-    ],
-    "comment": "Fall Röhrdanz -&gt; Stunden in Juni verschoben",
+    "ner_names": [],
+    "comment": "Fall Röhrdanz -> Stunden in Juni verschoben Syst.Arbeit, SE",
     "has person": "+",
     "names": [
       "Röhrdanz"
@@ -11168,10 +11182,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -11236,7 +11248,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Koch"
+    ],
     "comment": "Fall Koch 1h in Juni",
     "has person": "+",
     "names": [
@@ -11261,24 +11275,22 @@
     ]
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "kollegialer Austausch, Telefonate, Doku, ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "kollegialer Austausch, Telefonate, Doku, ",
     "has person": "-"
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Koch"
+    ],
     "comment": "Fall Koch 4h in Juni",
     "has person": "+",
     "names": [
@@ -11286,98 +11298,74 @@
     ]
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": ", Doku,Telefonat",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": ", Doku,Telefonat",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": ", Doku,Telefonat",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": ", Doku,Telefonat",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": ", Doku,Telefonat",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": ", Doku,Telefonat",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": ", Doku,Telefonat",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": ", Doku,Telefonat",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": ", Doku,Telefonat",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": ", Doku,",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": ", Doku,, Hausbesuch, , praktische Unterstützung, Telefonat , ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": ", Doku,, Hausbesuch, , praktische Unterstützung, ",
     "has person": "-"
   },
@@ -11484,11 +11472,11 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Dethloff"
+      "Juli"
     ],
-    "comment": "Fall Dethloff -&gt; 2h in Juli",
+    "comment": "Fall Dethloff -> 2h in Juli",
     "has person": "+",
     "names": [
       "Dethloff"
@@ -11502,10 +11490,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Rehfeld"
-    ],
-    "comment": "Fall Rehfeld -&gt; 2h in Juni",
+    "ner_names": [],
+    "comment": "Fall Rehfeld -> 2h in Juni",
     "has person": "+",
     "names": [
       "Rehfeld"
@@ -11515,47 +11501,45 @@
     "type": "TN",
     "ner_names": [],
     "comment": "Datum wegen Kostenzusage vom 03.05. auf 30.05. geändert!!!!",
-    "has person": "-"
-  },
-  {
-    "type": "TP",
-    "ner_names": [
-      "Dethloff"
-    ],
-    "comment": "Fall Dethloff -&gt; 1h in Juli",
-    "has person": "+",
-    "names": [
-      "Dethloff"
-    ]
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Nähwerkstatt",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Nähwerkstatt",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Nähwerkstatt",
     "has person": "-"
   },
   {
     "type": "FN",
     "ner_names": [
-      "Bul",
-      "Dehn"
+      "Juli"
     ],
-    "comment": "Fall Bul / Dehn -&gt; 2,5h in Juni",
+    "comment": "Fall Dethloff -> 1h in Juli",
     "has person": "+",
     "names": [
-      "Bul / Dehn"
+      "Dethloff"
+    ]
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Nähwerkstatt",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Nähwerkstatt",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Nähwerkstatt",
+    "has person": "-"
+  },
+  {
+    "type": "TP",
+    "ner_names": [],
+    "comment": "Fall Bul / Dehn -> 2,5h in Juni",
+    "has person": "+",
+    "names": [
+      "Bul",
+      "Dehn"
     ]
   },
   {
@@ -11566,16 +11550,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
-    "comment": "Fall Koch 2h in Juni",
-    "has person": "+",
-    "names": [
+    "ner_names": [
       "Koch"
-    ]
-  },
-  {
-    "type": "TP",
-    "ner_names": [],
+    ],
     "comment": "Fall Koch 2h in Juni",
     "has person": "+",
     "names": [
@@ -11585,9 +11562,18 @@
   {
     "type": "TP",
     "ner_names": [
-      "Röhrdanz"
+      "Koch"
     ],
-    "comment": "Fall Röhrdanz -&gt; Stunden in Juni verschoben",
+    "comment": "Fall Koch 2h in Juni",
+    "has person": "+",
+    "names": [
+      "Koch"
+    ]
+  },
+  {
+    "type": "TP",
+    "ner_names": [],
+    "comment": "Fall Röhrdanz -> Stunden in Juni verschoben",
     "has person": "+",
     "names": [
       "Röhrdanz"
@@ -11606,10 +11592,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Rehfeld"
-    ],
-    "comment": "Fall Rehfeld -&gt; 0,5h in Juni",
+    "ner_names": [],
+    "comment": "Fall Rehfeld -> 0,5h in Juni",
     "has person": "+",
     "names": [
       "Rehfeld"
@@ -11865,10 +11849,7 @@
     "type": "TP",
     "ner_names": [],
     "comment": "Beratung, Begleitung Bank Ludwigslust",
-    "has person": "+",
-    "names": [
-      "Ludwigslust"
-    ]
+    "has person": "+"
   },
   {
     "type": "TN",
@@ -11877,14 +11858,12 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
@@ -12119,9 +12098,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Jonathan Altrock"
+      "Jonathan",
+      "Juli"
     ],
     "comment": "Fall Jonathan Altrock §28 2h in Juli §31 verschoben",
     "has person": "+",
@@ -12155,7 +12135,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Horn"
+    ],
     "comment": "Praxis Horn",
     "has person": "+",
     "names": [
@@ -12241,8 +12223,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Mai"
+    ],
     "comment": "Ämter Merseburg aus April, Bewilligung 12h erst im Mai",
     "has person": "-"
   },
@@ -12259,8 +12243,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Kind"
+    ],
     "comment": "erzieherischer Bedarf KM, und Kind",
     "has person": "-"
   },
@@ -12391,10 +12377,16 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Dirk"
+    ],
     "comment": "Nähwerkstatt, Vertretung von Mareen (in Absprache mit Dirk hier eingetragen)",
-    "has person": "-"
+    "has person": "-",
+    "names": [
+      "Mareen",
+      "Dirk"
+    ]
   },
   {
     "type": "TN",
@@ -12421,8 +12413,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Kind"
+    ],
     "comment": "Kind suchen",
     "has person": "-"
   },
@@ -12601,10 +12595,9 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Gina",
-      "Gina"
+      "Freund"
     ],
     "comment": "Unterstützung Gina, Beratung Freund von Gina, Terminabsprachen",
     "has person": "+",
@@ -12668,9 +12661,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Mück"
-    ],
+    "ner_names": [],
     "comment": "Ausgleich für Mück und Garling",
     "has person": "+",
     "names": [
@@ -12707,9 +12698,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Mück"
-    ],
+    "ner_names": [],
     "comment": "Ausgleich für Mück",
     "has person": "+",
     "names": [
@@ -12723,18 +12712,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Beratung, Telefonate, Koll. Austausch ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": " Koll. Austausch ",
     "has person": "-"
   },
@@ -12769,18 +12754,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Koll, Austausch ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Koll, Austausch ",
     "has person": "-"
   },
@@ -12971,12 +12952,13 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Khalila"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Khalila Begleitung, KM Beratung",
-    "has person": "-"
+    "has person": "+",
+    "names": [
+      "Khalila"
+    ]
   },
   {
     "type": "TN",
@@ -13345,8 +13327,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
-    "ner_names": [],
+    "type": "FN",
+    "ner_names": [
+      "Mai"
+    ],
     "comment": "4h aus Mai Rehländer $30",
     "has person": "+",
     "names": [
@@ -13511,7 +13495,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Horn"
+    ],
     "comment": "Termin Praxis Horn",
     "has person": "+",
     "names": [
@@ -13617,7 +13603,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate",
     "has person": "-"
   },
   {
@@ -13629,13 +13615,73 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Therapiebegleitung",
+    "comment": "Therapiebegleitung koll. Fallaustausch Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Aktivität Beratung Telefonate Netzwerkarbeit",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Beratung Telefonate ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Telefonate ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "kollegialer Fachaustausch Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "kollegialer Fachaustausch Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "kollegialer Fachaustausch Telefonate Dokumentation Netzwerkarbeit",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Telefonate Netzwerkarbeit",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Telefonate Aktivität",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Telefonate Aktivität",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Telefonate",
     "has person": "-"
   },
   {
@@ -13647,103 +13693,43 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "HPG Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Aktivität  Medienpädagogik Telefonate Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "Aktivität  Begleitung Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "Begleitung Netzwerkarbeit Aktivität Telefonate Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "Therapiebegleitung Telefonate Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "praktische Unterstützung Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Beratung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "HPG",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität ",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität ",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Begleitung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Therapiebegleitung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "praktische Unterstützung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Telefonate Aktivität Beratung",
     "has person": "-"
   },
   {
@@ -13815,25 +13801,19 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Netzwerkarbeit praktische Unterstützung Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Telefonate Beratung Aktivität",
     "has person": "-"
   },
   {
@@ -13845,7 +13825,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität praktische Unterstützung Telefonate ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität praktische Unterstützung Telefonate Medienpädagogik",
     "has person": "-"
   },
   {
@@ -13857,7 +13843,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "fehlgeschlagener Kontakt",
+    "comment": "fehlgeschlagener Kontakt Telefonate",
     "has person": "-"
   },
   {
@@ -13869,13 +13855,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Aktivität Beratung Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "fehlgeschlagener Kontakt",
+    "comment": "fehlgeschlagener Kontakt Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
@@ -13939,23 +13925,29 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "April"
+    ],
     "comment": "13 h aus April",
     "has person": "-"
   },
   {
-    "type": "TP",
-    "ner_names": [],
-    "comment": "Fall Miesenburg -&gt; 8,25h aus April",
+    "type": "FN",
+    "ner_names": [
+      "April"
+    ],
+    "comment": "Fall Miesenburg -> 8,25h aus April",
     "has person": "+",
     "names": [
       "Miesenburg"
     ]
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Mai"
+    ],
     "comment": "4,75h aus Mai",
     "has person": "-"
   },
@@ -14022,10 +14014,10 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Fiege -&gt; 2,5h in Nov",
+    "comment": "Fall Fiege -> 2,5h in Nov",
     "has person": "+",
     "names": [
-      "Fliege"
+      "Fiege"
     ]
   },
   {
@@ -14089,8 +14081,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Job"
+    ],
     "comment": "Job",
     "has person": "-"
   },
@@ -14269,8 +14263,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Wald"
+    ],
     "comment": "Wald",
     "has person": "-"
   },
@@ -14680,8 +14676,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "April"
+    ],
     "comment": "Stunden aus April",
     "has person": "-"
   },
@@ -14797,8 +14795,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Mai"
+    ],
     "comment": "2,5h aus Mai",
     "has person": "-"
   },
@@ -14923,59 +14923,61 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Schneider",
-      "Jan"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Fall Schneider/ Grüsner, 5h aus Jan, 8,75h aus Feb",
     "has person": "+",
     "names": [
-      "Schneider/ Grüßner"
+      "Schneider",
+      "Grüsner"
     ]
   },
   {
     "type": "FN",
     "ner_names": [
-      "Schneider"
+      "März"
     ],
     "comment": "Fall Schneider/ Grüsner, 2,25h aus März",
     "has person": "+",
     "names": [
-      "Schneider/ Grüßner"
+      "Schneider",
+      "Grüsner"
     ]
   },
   {
     "type": "FN",
     "ner_names": [
-      "Schneider"
+      "März"
     ],
     "comment": "Fall Schneider/ Grüsner, 7h aus März",
     "has person": "+",
     "names": [
-      "Schneider/ Grüßner"
+      "Schneider",
+      "Grüsner"
     ]
   },
   {
     "type": "FN",
     "ner_names": [
-      "Schneider"
+      "März"
     ],
     "comment": "Fall Schneider/ Grüsner, 6h aus März",
     "has person": "+",
     "names": [
-      "Schneider/ Grüßner"
+      "Schneider",
+      "Grüsner"
     ]
   },
   {
     "type": "FN",
     "ner_names": [
-      "Schneider"
+      "März"
     ],
-    "comment": "Fall Schneider/ Grüsner ",
+    "comment": "Fall Schneider/ Grüsner  3h aus März abgerechnet",
     "has person": "+",
     "names": [
-      "Schneider/ Grüßner"
+      "Schneider",
+      "Grüsner"
     ]
   },
   {
@@ -15294,26 +15296,20 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "KINDER YOGA"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "KINDER YOGA",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "KINDER YOGA"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "KINDER YOGA",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "KINDER YOGA"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "KINDER YOGA",
     "has person": "-"
   },
@@ -15875,26 +15871,20 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -16104,10 +16094,10 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Fiege -&gt; 2,5h in Nov",
+    "comment": "Fall Fiege -> 2,5h in Nov",
     "has person": "+",
     "names": [
-      "Fliege"
+      "Fiege"
     ]
   },
   {
@@ -16162,22 +16152,22 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Lucke"
+      "Juli"
     ],
-    "comment": "Fall Lucke -&gt; 1h in Juli",
+    "comment": "Fall Lucke -> 1h in Juli",
     "has person": "+",
     "names": [
       "Lucke"
     ]
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Lucke"
+      "Juli"
     ],
-    "comment": "Fall Lucke -&gt; 3h in Juli",
+    "comment": "Fall Lucke -> 3h in Juli",
     "has person": "+",
     "names": [
       "Lucke"
@@ -16336,7 +16326,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Rösseler -&gt; 1h in Juni",
+    "comment": "Fall Rösseler -> 1h in Juni",
     "has person": "+",
     "names": [
       "Rösseler"
@@ -16349,25 +16339,21 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Röseler"
-    ],
-    "comment": "Fall Röseler -&gt; 1,5h in Okt",
+    "type": "TP",
+    "ner_names": [],
+    "comment": "Fall Röseler -> 1,5h in Okt",
     "has person": "+",
     "names": [
-      "Rösseler"
+      "Röseler"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Röseler"
-    ],
-    "comment": "Fall Röseler -&gt; 2h in Okt",
+    "type": "TP",
+    "ner_names": [],
+    "comment": "Fall Röseler -> 2h in Okt",
     "has person": "+",
     "names": [
-      "Rösseler"
+      "Röseler"
     ]
   },
   {
@@ -16472,10 +16458,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Ospa"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Ospa Kontoeröffnung",
     "has person": "-"
   },
@@ -16498,10 +16482,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Ospa"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Ospa Termin, Wohnungssuche",
     "has person": "-"
   },
@@ -16626,14 +16608,18 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Kind"
+    ],
     "comment": "Alltag mit Kind",
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Kind"
+    ],
     "comment": "Alltag mit Kind",
     "has person": "-"
   },
@@ -16656,15 +16642,10 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Kita Jona"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Antrag auf Flexhilfe, Sozialamt, Termin zum Fach. Austausch und Unterstützung Kita Jona",
-    "has person": "+",
-    "names": [
-      "Jona"
-    ]
+    "has person": "-"
   },
   {
     "type": "TN",
@@ -16733,8 +16714,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Groß"
+    ],
     "comment": "Krankenpflegedienst Groß Stove",
     "has person": "-"
   },
@@ -16835,8 +16818,12 @@
     "has person": "-"
   },
   {
-    "type": "TP",
-    "ner_names": [],
+    "type": "FN",
+    "ner_names": [
+      "August",
+      "Dirk",
+      "Dirk"
+    ],
     "comment": "15 Stnden mehr gearbeitet, werden im August (Urlaub) für Dirk abgerechnet. Ist mit Dirk besprochen. ",
     "has person": "+",
     "names": [
@@ -16894,7 +16881,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Wohnungsgesellschaft , OSPA, ",
+    "comment": "Wohnungsgesellschaft , OSPA,  Aktivität zur Körperwahrnehmung",
     "has person": "-"
   },
   {
@@ -16928,10 +16915,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": " Doku",
     "has person": "-"
   },
@@ -17002,10 +16987,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Megazoo"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Eis essen, Besuch Megazoo, Spielplatz, Austausch",
     "has person": "-"
   },
@@ -17034,14 +17017,18 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Mai"
+    ],
     "comment": "2,5h aus Mai",
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "März"
+    ],
     "comment": "2h aus März",
     "has person": "-"
   },
@@ -17061,10 +17048,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Lucke"
-    ],
-    "comment": "Fall Lucke -&gt; 4h aus Juni",
+    "ner_names": [],
+    "comment": "Fall Lucke -> 4h aus Juni",
     "has person": "+",
     "names": [
       "Lucke"
@@ -17354,7 +17339,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "kollegialer Fachaustausch Telefonate Umgangsvorbereitung",
     "has person": "-"
   },
   {
@@ -17366,73 +17351,73 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "kollegialer Fachaustausch Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "kollegialer Fachaustausch Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Umgangsbegleitung",
+    "comment": "Umgangsbegleitung Umgangsvorbereitung kollegialer Fachaustausch Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonat",
+    "comment": "Telefonat kollegialer Fachaustausch ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonat",
+    "comment": "Telefonat  ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Recherche ",
+    "comment": "Recherche  Netzwerkarbeit ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Netzwerkarbeit ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Netzwerkarbeit ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Begleitung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Therapiebegleitung",
+    "comment": "Therapiebegleitung Telefonate kollegialer Fachaustausch",
     "has person": "-"
   },
   {
@@ -17468,27 +17453,25 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Telefonat",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung",
     "has person": "-"
   },
   {
@@ -17500,7 +17483,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Netzwerkarbeit Fachaustausch",
     "has person": "-"
   },
   {
@@ -17559,9 +17542,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Jais"
-    ],
+    "ner_names": [],
     "comment": "Ausgleich Familie Jais ",
     "has person": "+",
     "names": [
@@ -17575,10 +17556,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, Telefonat",
     "has person": "-"
   },
@@ -17595,10 +17574,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, Telefonat",
     "has person": "-"
   },
@@ -18421,9 +18398,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Kathrin"
-    ],
+    "ner_names": [],
     "comment": "Kathrin kam nicht nach Hause",
     "has person": "+",
     "names": [
@@ -18535,7 +18510,6 @@
   {
     "type": "TP",
     "ner_names": [
-      "Feller",
       "Kathleen"
     ],
     "comment": "eigentlich Feller, nach Absprache mit Kathleen hierüber",
@@ -18926,19 +18900,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität praktische Unterstützung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "Aktivität ",
     "has person": "-"
   },
   {
@@ -18950,7 +18918,31 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "kollegialer Fachaustausch Organisation der Hilfe",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "kollegialer Fachaustausch Beratung Aktivität Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Aktivität Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Therapiebegleitung Fachaustausch Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Telefonat",
     "has person": "-"
   },
   {
@@ -18962,13 +18954,25 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Therapiebegleitung",
+    "comment": "Beratung Aktivität Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Telefonate Fachaustausch",
     "has person": "-"
   },
   {
@@ -18980,54 +18984,25 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TP",
-    "ner_names": [],
-    "comment": "Telefonate"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Telefonate",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Telefonate",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung",
     "has person": "-"
   },
   {
@@ -19111,7 +19086,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "&quot;Bahnsteig 1&quot;",
+    "comment": "Bahnsteig 1",
     "has person": "-"
   },
   {
@@ -19127,9 +19102,8 @@
     "has person": "-"
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
-      "Feller",
       "Werner",
       "Kathleen"
     ],
@@ -19137,6 +19111,7 @@
     "has person": "+",
     "names": [
       "Feller",
+      "Werner",
       "Kathleen"
     ]
   },
@@ -19173,7 +19148,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate Netzwerkarbeit Dokumentation Fachaustausch",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Ferienaktivität Telefonate ",
     "has person": "-"
   },
   {
@@ -19185,19 +19166,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Ferienaktivität",
+    "comment": "Ferienaktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Ferienaktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Ferienaktivität",
+    "comment": "Ferienaktivität Telefonate",
     "has person": "-"
   },
   {
@@ -19311,7 +19286,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Telefonate Beratung",
     "has person": "-"
   },
   {
@@ -19381,14 +19356,18 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Urlaub"
+    ],
     "comment": "Organisation Hilfe, Urlaub",
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Urlaub"
+    ],
     "comment": "Organisation Hilfe, Urlaub",
     "has person": "-"
   },
@@ -19607,8 +19586,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Kind"
+    ],
     "comment": "aktuelle Situation, Urlaubsabsprache KM und Kind mit Amt",
     "has person": "-"
   },
@@ -19681,7 +19662,6 @@
   {
     "type": "TP",
     "ner_names": [
-      "Barner",
       "Andreas"
     ],
     "comment": "Frau Barner, Fall Andreas",
@@ -19712,7 +19692,7 @@
   {
     "type": "TP",
     "ner_names": [
-      "Henry"
+      "Richter"
     ],
     "comment": "Fam.syst. Arbeit, SE, Fall Henry, Fam. Richter",
     "has person": "+",
@@ -19723,10 +19703,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Röseler"
-    ],
-    "comment": "Fall Röseler -&gt; 2h in Okt",
+    "ner_names": [],
+    "comment": "Fall Röseler -> 2h in Okt",
     "has person": "+",
     "names": [
       "Röseler"
@@ -19734,10 +19712,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Röseler"
-    ],
-    "comment": "Fall Röseler -&gt; 2h in Okt",
+    "ner_names": [],
+    "comment": "Fall Röseler -> 2h in Okt",
     "has person": "+",
     "names": [
       "Röseler"
@@ -19752,7 +19728,7 @@
   {
     "type": "TP",
     "ner_names": [
-      "Henry"
+      "Richter"
     ],
     "comment": "Fall Henry, Fam. Richter",
     "has person": "+",
@@ -19771,13 +19747,19 @@
     "type": "TN",
     "ner_names": [],
     "comment": "Gar. Fam.syst. Arbeit",
-    "has person": "-"
+    "has person": "-",
+    "names": [
+      "Gar."
+    ]
   },
   {
     "type": "TN",
     "ner_names": [],
     "comment": "Gar. Fam.syst. Arbeit",
-    "has person": "-"
+    "has person": "-",
+    "names": [
+      "Gar."
+    ]
   },
   {
     "type": "TN",
@@ -19792,9 +19774,11 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Stunden aus Juli 16",
+    "type": "FP",
+    "ner_names": [
+      "Juli"
+    ],
+    "comment": "Stunden aus Juli 16  Fam.syst. Arbeit",
     "has person": "-"
   },
   {
@@ -19806,7 +19790,6 @@
   {
     "type": "TP",
     "ner_names": [
-      "Barner",
       "Andreas"
     ],
     "comment": " Fam.syst. Arbeit, Fallbesprechung zu Fam. Barner, Fall von Andreas",
@@ -20059,7 +20042,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Vorbereitung Termin Gericht. bestellter Betreuerin",
+    "comment": "Vorbereitung Termin Gericht. bestellter Betreuerin ",
     "has person": "-"
   },
   {
@@ -20075,12 +20058,15 @@
     "has person": "-"
   },
   {
-    "type": "FP",
+    "type": "TP",
     "ner_names": [
       "Marc"
     ],
     "comment": "Vorsorgevollmacht Marc",
-    "has person": "-"
+    "has person": "+",
+    "names": [
+      "Marc"
+    ]
   },
   {
     "type": "TN",
@@ -20113,13 +20099,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "TN",
     "ner_names": [],
     "comment": "Ämter Jobcenter, Sozialamt, Arge",
-    "has person": "+",
-    "names": [
-      "Arge"
-    ]
+    "has person": "-"
   },
   {
     "type": "TN",
@@ -20206,8 +20189,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Juli"
+    ],
     "comment": "Stunden aus Juli 16",
     "has person": "-"
   },
@@ -20244,7 +20229,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Betreuung &quot;Wassertage&quot;",
+    "comment": "Betreuung \"Wassertage\"",
     "has person": "-"
   },
   {
@@ -20254,10 +20239,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Koll. Austaustausch ",
     "has person": "-"
   },
@@ -20268,29 +20251,33 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "März"
+    ],
     "comment": "7h aus März",
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "April"
+    ],
     "comment": "6h aus April",
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Mai"
+    ],
     "comment": "3h aus Mai",
     "has person": "-"
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Röseler"
-    ],
-    "comment": "Fall Röseler -&gt; 2h in Okt",
+    "ner_names": [],
+    "comment": "Fall Röseler -> 2h in Okt",
     "has person": "+",
     "names": [
       "Röseler"
@@ -20419,13 +20406,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung, Begleitung, Bedarfsklärung",
+    "comment": "Beratung, Begleitung, Bedarfsklärung Gespräch im Schulamt",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung, Begleitung, ",
+    "comment": "Beratung, Begleitung,  Krisenintervention Mutter gesundheitlich",
     "has person": "-"
   },
   {
@@ -20641,55 +20628,55 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Netzwerkarbeit Telefonate Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Beratung Aktivität praktische Unterstützung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Aktivität/ Kennenlernen ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität/ Kennenlernen",
+    "comment": "Aktivität/ Kennenlernen ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung kollegialer Fachaustausch Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Hausbesuch",
+    "comment": "Hausbesuch praktische Unterstützung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Hausbesuch",
+    "comment": "Hausbesuch Beratung Telefonate kurzfristig abgesagter Termin kollegialer Fachaustausch",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Familienaktivität",
+    "comment": "Familienaktivität Telefonate Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Telefonate Beratung",
     "has person": "-"
   },
   {
@@ -20928,7 +20915,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Henry"
+    ],
     "comment": "zu Fam. Richter, neuer Fall JA Fr Gradt u Henry",
     "has person": "+",
     "names": [
@@ -20952,8 +20941,6 @@
   {
     "type": "TP",
     "ner_names": [
-      "Richter",
-      "Gradt",
       "Henry"
     ],
     "comment": "Frau Richter, Fall JA Fr Gradt, Henry",
@@ -20984,10 +20971,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Röseler"
-    ],
-    "comment": "Fall Röseler -&gt; 2h in Okt",
+    "ner_names": [],
+    "comment": "Fall Röseler -> 2h in Okt",
     "has person": "+",
     "names": [
       "Röseler"
@@ -21024,9 +21009,9 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Cassandra Kamrath"
+      "Cassandra"
     ],
     "comment": "Besuch Cassandra Kamrath in WG Güstrow mit JA",
     "has person": "+",
@@ -21089,14 +21074,13 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Both"
-    ],
-    "comment": "Fall Steinhaus/ Both §30 -&gt; 2,5h in September",
+    "type": "TP",
+    "ner_names": [],
+    "comment": "Fall Steinhaus/ Both §30 -> 2,5h in September",
     "has person": "+",
     "names": [
-      "Steinhaus/ Both"
+      "Steinhaus",
+      "Both"
     ]
   },
   {
@@ -21156,31 +21140,91 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Beratung Aktivität Telefonate kollegialer Fachaustausch",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Aktivität Telefonate kollegialer Fachaustausch",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Beratung Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate Netzwerkarbeit ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Beratung Telefonate  ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Beratung Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität praktische Unterstützung Beratung Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Freizeitaktivität Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Freizeitaktivität ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Freizeitaktivität Beratung Telefonate praktische Unterstützung",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Beratung Telefonate ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Telefonate Beratung",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "kurzfristig abgesagter Termin Netzwerkarbeit Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Telefonate kollegialer Fachaustausch",
     "has person": "-"
   },
   {
@@ -21192,109 +21236,49 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Dokumentation Netzwerkarbeit Telefonate kollegialer Fachaustausch",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Beratung Aktivität Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Freizeitaktivität",
+    "comment": "Netzwerkarbeit Fachaustausch",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Freizeitaktivität",
+    "comment": "praktische Unterstützung Beratung Netzwerkarbeit Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Freizeitaktivität",
+    "comment": "Ferienaktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Ferienaktivität Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Ferienaktivität ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Telefonate",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Dokumentation",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Beratung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Netzwerkarbeit",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "praktische Unterstützung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Ferienaktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Ferienaktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Ferienaktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
@@ -21660,7 +21644,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate",
     "has person": "-"
   },
   {
@@ -21672,72 +21656,70 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Telefonate Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Hausbesuch",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "geplanter Tagesausflug zum Art- Camp nach Lärz",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Telefonate",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Tagesausflug zum Art- Camp nach Lärz",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Ferienaktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "Hausbesuch Telefonate Beratung",
     "has person": "-"
   },
   {
     "type": "FP",
     "ner_names": [
-      "Doku"
+      "Camp"
     ],
+    "comment": "geplanter Tagesausflug zum Art- Camp nach Lärz Telefonate Hausbesuch Netzwerkarbeit",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Telefonate Ferienaktivität",
+    "has person": "-"
+  },
+  {
+    "type": "FP",
+    "ner_names": [
+      "Camp"
+    ],
+    "comment": "Tagesausflug zum Art- Camp nach Lärz Beratung Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Ferienaktivität Beratung Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "praktische Unterstützung Telefonat",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -21754,10 +21736,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": " Doku",
     "has person": "-"
   },
@@ -21894,8 +21874,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Urlaub"
+    ],
     "comment": "Übergabe nach Urlaub",
     "has person": "-"
   },
@@ -21913,9 +21895,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Nadja"
-    ],
+    "ner_names": [],
     "comment": "Beratung, Gespräch Nadja, ",
     "has person": "+",
     "names": [
@@ -21923,8 +21903,10 @@
     ]
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Urlaub"
+    ],
     "comment": "Beratung, Austausch Urlaub",
     "has person": "-"
   },
@@ -22272,9 +22254,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Nadja"
-    ],
+    "ner_names": [],
     "comment": "Nadja bei Freundin besucht",
     "has person": "+",
     "names": [
@@ -22284,7 +22264,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch - Übergabe Urlaubsvertretung,",
+    "comment": "Fachaustausch - Übergabe Urlaubsvertretung, ",
     "has person": "-"
   },
   {
@@ -22386,7 +22366,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Diverse Sims",
+    "comment": "Diverse Sims Diverse telefon",
     "has person": "-"
   },
   {
@@ -22414,14 +22394,13 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Both"
-    ],
-    "comment": "Fall Steinhaus/ Both §30 -&gt; 1h in September",
+    "type": "TP",
+    "ner_names": [],
+    "comment": "Fall Steinhaus/ Both §30 -> 1h in September",
     "has person": "+",
     "names": [
-      "Steinhaus/ Both"
+      "Steinhaus",
+      "Both"
     ]
   },
   {
@@ -22431,18 +22410,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -22477,10 +22452,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -22557,18 +22530,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -22591,18 +22560,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -22645,65 +22610,67 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
-    "comment": "Doku",
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Doku ",
     "has person": "-"
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
-      "Rieck"
+      "Richter"
     ],
-    "comment": "Fall Rieck/ Richter §28 -&gt; 1h in Oktober",
+    "comment": "Fall Rieck/ Richter §28 -> 1h in Oktober ",
     "has person": "+",
     "names": [
-      "Rieck/ Richter"
+      "Rieck",
+      "Richter"
     ]
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
-      "Rieck"
+      "Richter"
     ],
-    "comment": "Fall Rieck/ Richter -&gt; 3h in Sep",
+    "comment": "Fall Rieck/ Richter -> 3h in Sep",
     "has person": "+",
     "names": [
-      "Rieck/ Richter"
+      "Rieck",
+      "Richter"
     ]
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
-      "Rieck"
+      "Richter"
     ],
-    "comment": "Fall Rieck/ Richter §28 -&gt; 0,75h in Oktober",
+    "comment": "Fall Rieck/ Richter §28 -> 0,75h in Oktober",
     "has person": "+",
     "names": [
-      "Rieck/ Richter"
+      "Rieck",
+      "Richter"
     ]
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung, Netzwerkarbeit, Fachaustausch, Doku",
+    "comment": "Beratung, Netzwerkarbeit, Fachaustausch, Doku ",
     "has person": "-"
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
-      "Rieck"
+      "Richter"
     ],
-    "comment": "Fall Rieck/ Richter §28 -&gt; 2,75h in Oktober",
+    "comment": "Fall Rieck/ Richter §28 -> 2,75h in Oktober",
     "has person": "+",
     "names": [
-      "Rieck/ Richter"
+      "Rieck",
+      "Richter"
     ]
   },
   {
@@ -22713,34 +22680,26 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -22751,85 +22710,83 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Both"
-    ],
-    "comment": "Fall Steinhaus/ Both §30 -&gt; 5h in September",
+    "type": "TP",
+    "ner_names": [],
+    "comment": "Fall Steinhaus/ Both §30 -> 5h in September",
     "has person": "+",
     "names": [
-      "Steinhaus/ Both"
+      "Steinhaus",
+      "Both"
     ]
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate kollegialer Fachaustausch Netzwerkarbeit",
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Both"
-    ],
-    "comment": "Fall Steinhaus/ Both §30 -&gt; 4h in September",
+    "type": "TP",
+    "ner_names": [],
+    "comment": "Fall Steinhaus/ Both §30 -> 4h in September",
     "has person": "+",
     "names": [
-      "Steinhaus/ Both"
+      "Steinhaus",
+      "Both"
     ]
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Netzwerkarbeit Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Netzwerkarbeit Telefonate Beratung Aktivität",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Ferienaktivität",
+    "comment": "Ferienaktivität Telefonate Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Ferienaktivität",
+    "comment": "Ferienaktivität ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Netzwerkarbeit Telefonate praktische Unterstützung ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Ferienaktivität",
+    "comment": "Ferienaktivität ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate Umgangsbegleitung ",
     "has person": "-"
   },
   {
@@ -22989,16 +22946,15 @@
     "has person": "-"
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
-      "Vanesa",
       "Vivien"
     ],
     "comment": "Einschulung von Vanesa (Lütt Matten) und Vivien (Warnowschule)",
     "has person": "+",
     "names": [
       "Vanesa",
-      "Viven"
+      "Vivien"
     ]
   },
   {
@@ -23020,8 +22976,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Tel"
+    ],
     "comment": "Tel ",
     "has person": "-"
   },
@@ -23039,8 +22997,10 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
-    "comment": "Fall Fiedler -&gt; 0,5h in Okt",
+    "ner_names": [
+      "Fiedler"
+    ],
+    "comment": "Fall Fiedler -> 0,5h in Okt",
     "has person": "+",
     "names": [
       "Fiedler"
@@ -23263,9 +23223,9 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Gina Komorowski"
+      "Gina"
     ],
     "comment": "Dokumentation zum HPG Gina Komorowski",
     "has person": "+",
@@ -23282,30 +23242,32 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "aktuelle Situation",
+    "comment": "aktuelle Situation ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Rentenbescheide",
+    "comment": "Rentenbescheide ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Rentenbescheide, Nachlassgericht",
+    "comment": "Rentenbescheide, Nachlassgericht ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "aktuelle Situation Großeltern",
+    "comment": "aktuelle Situation Großeltern ",
     "has person": "-"
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Gina"
+    ],
     "comment": "Mutbegleitung HPG Gina",
     "has person": "+",
     "names": [
@@ -23337,10 +23299,8 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Busfahrausweis Nadja"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Busfahrausweis Nadja",
     "has person": "+",
     "names": [
@@ -23354,10 +23314,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Dybuster"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Fachaustausch, Antrag Dybuster Schule",
     "has person": "-"
   },
@@ -23458,7 +23416,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Haase"
+    ],
     "comment": "Praxis Haase",
     "has person": "+",
     "names": [
@@ -23556,27 +23516,33 @@
     "has person": "-"
   },
   {
-    "type": "TP",
-    "ner_names": [],
-    "comment": "Fall Garschke -&gt; 2,25h aus April",
+    "type": "FN",
+    "ner_names": [
+      "April"
+    ],
+    "comment": "Fall Garschke -> 2,25h aus April",
     "has person": "+",
     "names": [
       "Garschke"
     ]
   },
   {
-    "type": "TP",
-    "ner_names": [],
-    "comment": "Fall Garschke -&gt; 1,25h aus April",
+    "type": "FN",
+    "ner_names": [
+      "April"
+    ],
+    "comment": "Fall Garschke -> 1,25h aus April",
     "has person": "+",
     "names": [
       "Garschke"
     ]
   },
   {
-    "type": "TP",
-    "ner_names": [],
-    "comment": "Fall Garschke -&gt; 6h aus April",
+    "type": "FN",
+    "ner_names": [
+      "April"
+    ],
+    "comment": "Fall Garschke -> 6h aus April",
     "has person": "+",
     "names": [
       "Garschke"
@@ -23633,7 +23599,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Basharat -&gt;0,25h in Oktober",
+    "comment": "Fall Basharat ->0,25h in Oktober",
     "has person": "+",
     "names": [
       "Basharat"
@@ -23654,7 +23620,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Basharat -&gt;3h in Oktober",
+    "comment": "Fall Basharat ->3h in Oktober",
     "has person": "+",
     "names": [
       "Basharat"
@@ -23663,7 +23629,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Dokumentation",
+    "comment": "Dokumentation Telefonate",
     "has person": "-"
   },
   {
@@ -23675,43 +23641,43 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Telefonate Hausbesuch",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Dokumentation",
+    "comment": "Dokumentation Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Fachaustausch Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
@@ -24192,9 +24158,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "David"
-    ],
+    "ner_names": [],
     "comment": "Beratung (Krise David)",
     "has person": "+",
     "names": [
@@ -24233,9 +24197,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Florian"
-    ],
+    "ner_names": [],
     "comment": "Begleitung Florian, HJC Antrag",
     "has person": "+",
     "names": [
@@ -24440,7 +24402,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Babysachen besorgt,",
+    "comment": "Babysachen besorgt, Fachaustausch",
     "has person": "-"
   },
   {
@@ -24608,7 +24570,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Beratung Telefonate",
     "has person": "-"
   },
   {
@@ -24626,13 +24588,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
@@ -24662,43 +24624,43 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Hausbesuch Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate Recherche ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "medienpädagogische Arbeit",
+    "comment": "medienpädagogische Arbeit Trickfilmwerkstatt Telefonate Dokumentation",
     "has person": "-"
   },
   {
@@ -24710,7 +24672,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung,",
+    "comment": "Beratung, Telefonate",
     "has person": "-"
   },
   {
@@ -24835,9 +24797,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Nadja"
-    ],
+    "ner_names": [],
     "comment": "Elternabend Nadja",
     "has person": "+",
     "names": [
@@ -24846,9 +24806,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Nadja"
-    ],
+    "ner_names": [],
     "comment": "mit Nadja nach Bützow zum KV",
     "has person": "+",
     "names": [
@@ -24927,8 +24885,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Vater"
+    ],
     "comment": "Umgang Vater ",
     "has person": "-"
   },
@@ -24971,7 +24931,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Basharat -&gt;2h in Oktober",
+    "comment": "Fall Basharat ->2h in Oktober",
     "has person": "+",
     "names": [
       "Basharat"
@@ -25070,7 +25030,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Basharat -&gt;2,5h in Oktober",
+    "comment": "Fall Basharat ->2,5h in Oktober",
     "has person": "+",
     "names": [
       "Basharat"
@@ -25091,7 +25051,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Basharat -&gt;3h in Oktober",
+    "comment": "Fall Basharat ->3h in Oktober",
     "has person": "+",
     "names": [
       "Basharat"
@@ -25110,102 +25070,84 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
@@ -25215,14 +25157,12 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
@@ -25322,14 +25262,12 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
@@ -25370,7 +25308,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Völker"
+    ],
     "comment": "Reflektion, Information, Übergabe zum ehemaligen Fall Völker",
     "has person": "+",
     "names": [
@@ -25516,34 +25456,26 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -25560,26 +25492,20 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -25620,122 +25546,92 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, Beratung",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, Beratung",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, Telefonat, Supervision",
     "has person": "-"
   },
@@ -25746,18 +25642,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -25774,42 +25666,32 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -26024,18 +25906,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku; Telefonat",
     "has person": "-"
   },
@@ -26070,26 +25948,20 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -26150,7 +26022,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Basharat -&gt;5h in Oktober",
+    "comment": "Fall Basharat ->5h in Oktober",
     "has person": "+",
     "names": [
       "Basharat"
@@ -26165,7 +26037,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung praktische Unterstützung",
     "has person": "-"
   },
   {
@@ -26177,19 +26049,19 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
@@ -26489,12 +26361,14 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "aktuelle",
+    "comment": "aktuelle  Situation",
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Kind"
+    ],
     "comment": "Begleitung Austausch zw. Kind und KM",
     "has person": "-"
   },
@@ -26560,9 +26434,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Khalila"
-    ],
+    "ner_names": [],
     "comment": "Austausch und Beratung beider Eltern Umgang Khalila",
     "has person": "+",
     "names": [
@@ -26644,43 +26516,43 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Begleitung Sozialamt",
+    "comment": "Begleitung Sozialamt ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Begleitung Schultermin",
+    "comment": "Begleitung Schultermin ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "aktuelle Situation",
+    "comment": "aktuelle Situation ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Falldokumentation",
+    "comment": "Falldokumentation ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Falldokumentation",
+    "comment": "Falldokumentation ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Falldokumentation",
+    "comment": "Falldokumentation ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Falldokumentation",
+    "comment": "Falldokumentation ",
     "has person": "-"
   },
   {
@@ -26716,7 +26588,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "1,25h abgezogen, da Budget überschritten war",
+    "comment": "1,25h abgezogen, da Budget überschritten war   Sachen in WG bringen, Geldangelegenheiten mit KM klären",
     "has person": "-"
   },
   {
@@ -26738,34 +26610,26 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Yoga"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Yoga",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Yoga"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Yoga",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Yoga"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Yoga",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Yoga"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Yoga",
     "has person": "-"
   },
@@ -26800,10 +26664,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Koll"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Koll. Austausch, Tel. ",
     "has person": "-"
   },
@@ -26920,8 +26782,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "August"
+    ],
     "comment": "12,5 aus August",
     "has person": "-"
   },
@@ -26936,7 +26800,7 @@
     "ner_names": [
       "Stoll"
     ],
-    "comment": "Fall Stoll",
+    "comment": "Fall Stoll   Fachaustausch, Doku",
     "has person": "+",
     "names": [
       "Stoll"
@@ -26991,9 +26855,9 @@
     "has person": "-"
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
-      "Schultermin Paul"
+      "Paul"
     ],
     "comment": "Schultermin Paul",
     "has person": "+",
@@ -27103,10 +26967,8 @@
     ]
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -27164,7 +27026,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Erst-Interview mit der Kindesmutter",
+    "comment": "Erst-Interview mit der Kindesmutter + Dokumentation",
     "has person": "-"
   },
   {
@@ -27259,19 +27121,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "praktische Unterstützung Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
@@ -27283,13 +27139,19 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "kollegialer Fachaustausch",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Aktivität ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Telefonate",
     "has person": "-"
   },
   {
@@ -27301,7 +27163,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Beratung Aktivität",
     "has person": "-"
   },
   {
@@ -27319,25 +27181,25 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate kollegialer Fachaustausch Netzwerkarbeit Beratung Übertrag aus September",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Beratung Aktivität ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Beratung Aktivität ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate Beratung  ",
     "has person": "-"
   },
   {
@@ -27347,27 +27209,27 @@
     "has person": "-"
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
-      "Walter",
       "Wolfgramm"
     ],
-    "comment": "Fall Walter/ Wolfgramm -&gt; 2h in Nov",
+    "comment": "Fall Walter/ Wolfgramm -> 2h in Nov",
     "has person": "+",
     "names": [
-      "Walter"
+      "Walter",
+      "Wolfgramm"
     ]
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
-      "Walter",
       "Wolfgramm"
     ],
-    "comment": "Fall Walter/ Wolfgramm -&gt; 2h in Nov",
+    "comment": "Fall Walter/ Wolfgramm -> 2h in Nov",
     "has person": "+",
     "names": [
-      "Walter"
+      "Walter",
+      "Wolfgramm"
     ]
   },
   {
@@ -27424,102 +27286,84 @@
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Unternehmung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
@@ -28038,35 +27882,36 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Bardehel/ Treite -&gt; h werden in 2017 verrechnet",
+    "comment": "Fall Bardehel/ Treite -> h werden in 2017 verrechnet",
     "has person": "+",
     "names": [
-      "Bardehel/ Treite"
+      "Bardehel",
+      "Treite"
     ]
   },
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Bardehel/ Treite -&gt; h werden in 2017 verrechnet",
+    "comment": "Fall Bardehel/ Treite -> h werden in 2017 verrechnet",
     "has person": "+",
     "names": [
-      "Bardehel/ Treite"
+      "Bardehel",
+      "Treite"
     ]
   },
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Bardehel/ Treite -&gt; h werden in 2017 verrechnet",
+    "comment": "Fall Bardehel/ Treite -> h werden in 2017 verrechnet",
     "has person": "+",
     "names": [
-      "Bardehel/ Treite"
+      "Bardehel",
+      "Treite"
     ]
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Kathrin"
-    ],
+    "ner_names": [],
     "comment": "Gespräch Kathrin, Hilfe Haushalt",
     "has person": "+",
     "names": [
@@ -28104,9 +27949,9 @@
     "has person": "-"
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
-      "Schulgespräch Christoffer"
+      "Christoffer"
     ],
     "comment": "Schulgespräch Christoffer",
     "has person": "+",
@@ -28153,25 +27998,25 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Netzwerkarbeit Fachaustausch Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
     "comment": "Beratung",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Telefonate Netzwerkarbeit",
     "has person": "-"
   },
   {
@@ -28183,97 +28028,97 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "medienpädagogische Arbeit",
+    "comment": "medienpädagogische Arbeit Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Beratung Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch  ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Aktivität praktische Unterstützung Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Aktivität",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Aktivität",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "praktische Unterstützung",
+    "comment": "praktische Unterstützung Netzwerkarbeit Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Netzwerkarbeit ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Netzwerkrunde  ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate   ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkrunde",
+    "comment": "Netzwerkrunde Fachaustausch  ",
     "has person": "-"
   },
   {
@@ -28285,13 +28130,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Mail,",
+    "comment": "Mail, ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Begleitung, Netzwerkarbeit, praktische Unterstützung, Fachaustausch",
+    "comment": "Begleitung, Netzwerkarbeit, praktische Unterstützung, Fachaustausch ",
     "has person": "-"
   },
   {
@@ -28327,43 +28172,43 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "kollegialer Fachaustausch Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "kollegialer Fachaustausch Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "kollegialer Fachaustausch Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kollegialer Fachaustausch",
+    "comment": "kollegialer Fachaustausch Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Aktivität Beratung Telefonate",
     "has person": "-"
   },
   {
@@ -28429,7 +28274,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": " Fachaustausch",
+    "comment": "Fachaustausch",
     "has person": "-"
   },
   {
@@ -28489,31 +28334,31 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "&quot;Weiberrunde&quot;",
+    "comment": "Weiberrunde",
     "has person": "-"
   },
   {
     "type": "FN",
     "ner_names": [
-      "Sobotta"
+      "Jan"
     ],
-    "comment": "Fall Sobotta/ Querbach -&gt; Stunden in Jan",
+    "comment": "Fall Sobotta/ Querbach -> Stunden in Jan",
     "has person": "+",
     "names": [
-      "Sobotta/ Querbach",
-      "Jan"
+      "Sobotta",
+      "Querbach"
     ]
   },
   {
     "type": "FN",
     "ner_names": [
-      "Sobotta"
+      "Jan"
     ],
-    "comment": "Fall Sobotta/ Querbach -&gt; Stunden in Jan",
+    "comment": "Fall Sobotta/ Querbach -> Stunden in Jan",
     "has person": "+",
     "names": [
-      "Sobotta/ Querbach",
-      "Jan"
+      "Sobotta",
+      "Querbach"
     ]
   },
   {
@@ -28549,13 +28394,13 @@
   {
     "type": "FN",
     "ner_names": [
-      "Sobotta"
+      "Jan"
     ],
-    "comment": "Fall Sobotta/ Querbach -&gt; Stunden in Jan",
+    "comment": "Fall Sobotta/ Querbach -> Stunden in Jan",
     "has person": "+",
     "names": [
-      "Sobotta/ Querbach",
-      "Jan"
+      "Sobotta",
+      "Querbach"
     ]
   },
   {
@@ -28597,28 +28442,31 @@
   {
     "type": "TN",
     "ner_names": [],
-    "has person": "-"
+    "has person": "-",
+    "comment": ""
   },
   {
     "type": "TN",
     "ner_names": [],
-    "has person": "-"
+    "has person": "-",
+    "comment": ""
   },
   {
     "type": "TN",
     "ner_names": [],
-    "has person": "-"
+    "has person": "-",
+    "comment": ""
   },
   {
     "type": "FN",
     "ner_names": [
-      "Sobotta"
+      "Jan"
     ],
-    "comment": "Fall Sobotta/ Querbach -&gt; Stunden in Jan",
+    "comment": "Fall Sobotta/ Querbach -> Stunden in Jan",
     "has person": "+",
     "names": [
-      "Sobotta/ Querbach",
-      "Jan"
+      "Sobotta",
+      "Querbach"
     ]
   },
   {
@@ -28634,9 +28482,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Röseler"
-    ],
+    "ner_names": [],
     "comment": "Jugendamt für Röseler",
     "has person": "+",
     "names": [
@@ -28658,24 +28504,25 @@
   {
     "type": "TP",
     "ner_names": [
-      "Ehrler"
+      "Schwarz"
     ],
-    "comment": " Frauenhaus 1. Treffen, JA DBR, Schwarz Frauenhaus,Ehrler, ",
+    "comment": "Frauenhaus 1. Treffen, JA DBR, Schwarz Frauenhaus,Ehrler, ",
     "has person": "+",
     "names": [
+      "Schwarz",
       "Ehrler"
     ]
   },
   {
     "type": "FN",
     "ner_names": [
-      "Sobotta"
+      "Jan"
     ],
-    "comment": "Fall Sobotta/ Querbach -&gt; Stunden in Jan",
+    "comment": "Fall Sobotta/ Querbach -> Stunden in Jan  Behördengänge, ",
     "has person": "+",
     "names": [
-      "Sobotta/ Querbach",
-      "Jan"
+      "Sobotta",
+      "Querbach"
     ]
   },
   {
@@ -28685,18 +28532,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, Telefonat",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, Telefonat",
     "has person": "-"
   },
@@ -28707,18 +28550,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, beratung, Doku, Telefonat",
     "has person": "-"
   },
@@ -28777,18 +28616,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, praktische Unterstützung",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -28799,34 +28634,26 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, ",
     "has person": "-"
   },
@@ -28837,27 +28664,21 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
-    "comment": " Doku, ",
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Doku, ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Netzwerkarbeit, Telefonat Doku, ",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
-    "comment": " Doku, ",
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Doku, ",
     "has person": "-"
   },
   {
@@ -28927,8 +28748,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Urlaub"
+    ],
     "comment": "Absprachen für Urlaub",
     "has person": "-"
   },
@@ -29007,7 +28830,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Vorbereitung &quot;Medientreff&quot;",
+    "comment": "Vorbereitung \"Medientreff\"",
     "has person": "-"
   },
   {
@@ -29015,7 +28838,7 @@
     "ner_names": [
       "Stoll"
     ],
-    "comment": "Fall Stoll",
+    "comment": "Fall Stoll   , Doku, Fachaustausch,Telefonat",
     "has person": "+",
     "names": [
       "Stoll"
@@ -29024,7 +28847,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Schulbegleitung L.Matiske / Teilnahme &quot;Schulförderplan&quot; für L.Matiske",
+    "comment": "Schulbegleitung L.Matiske / Teilnahme \"Schulförderplan\" für L.Matiske",
     "has person": "+",
     "names": [
       "L.Matiske"
@@ -29060,7 +28883,8 @@
     "comment": "Schwimmen mit M. und H. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "M. Matiske",
+      "H. Matiske"
     ]
   },
   {
@@ -29114,10 +28938,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -29196,7 +29018,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Weiterführung Hilfe",
+    "comment": "Weiterführung Hilfe 1h abgezogen (Dirk)",
     "has person": "-"
   },
   {
@@ -29220,7 +29042,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Tübbesing -&gt; 1,5h in Dez",
+    "comment": "Fall Tübbesing -> 1,5h in Dez  Gerichtl. Schreiben",
     "has person": "+",
     "names": [
       "Tübbesing"
@@ -29239,27 +29061,27 @@
     "has person": "-"
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
-      "Walter",
       "Wolfgramm"
     ],
-    "comment": "Fall Walter/ Wolfgramm -&gt; 2h in Nov",
+    "comment": "Fall Walter/ Wolfgramm -> 2h in Nov",
     "has person": "+",
     "names": [
-      "Walter/ Wolfgramm"
+      "Walter",
+      "Wolfgramm"
     ]
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
-      "Walter",
       "Wolfgramm"
     ],
-    "comment": "Fall Walter/ Wolfgramm -&gt; 2h in Nov",
+    "comment": "Fall Walter/ Wolfgramm -> 2h in Nov",
     "has person": "+",
     "names": [
-      "Walter/ Wolfgramm"
+      "Walter",
+      "Wolfgramm"
     ]
   },
   {
@@ -29317,20 +29139,20 @@
     "has person": "-"
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
       "Ladwig"
     ],
-    "comment": "Fall Ladwig -&gt; keine Kostenzusage",
+    "comment": "Fall Ladwig -> keine Kostenzusage",
     "has person": "+",
     "names": [
-      "Ludwig"
+      "Ladwig"
     ]
   },
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Dux -&gt; keine Kostenzusage",
+    "comment": "Fall Dux -> keine Kostenzusage",
     "has person": "+",
     "names": [
       "Dux"
@@ -29398,7 +29220,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Horn"
+    ],
     "comment": "Geschwistertherapie Praxis Horn",
     "has person": "+",
     "names": [
@@ -29443,7 +29267,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Dirk"
+    ],
     "comment": "Dienstberatung, mit Dirk besprochen",
     "has person": "+",
     "names": [
@@ -29464,7 +29290,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Dirk"
+    ],
     "comment": "Mit Dirk besprochen",
     "has person": "+",
     "names": [
@@ -29474,7 +29302,7 @@
   {
     "type": "TP",
     "ner_names": [
-      "Taschenbrecker"
+      "Dirk"
     ],
     "comment": "Mit Dirk abgesprochen, Herr Taschenbrecker bekommt Rechnung",
     "has person": "+",
@@ -29560,7 +29388,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Basharat §28 -&gt; 2h in Oktober",
+    "comment": "Fall Basharat §28 -> 2h in Oktober",
     "has person": "+",
     "names": [
       "Basharat"
@@ -29568,10 +29396,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Röseler"
-    ],
-    "comment": "Fall Röseler -&gt; 2h in Okt",
+    "ner_names": [],
+    "comment": "Fall Röseler -> 2h in Okt",
     "has person": "+",
     "names": [
       "Röseler"
@@ -29602,13 +29428,14 @@
     "comment": "Mit dirk besprochen, austausch mit ole zur arbeit mit familien in dbr",
     "has person": "+",
     "names": [
-      "dirk"
+      "dirk",
+      "ole"
     ]
   },
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Basharat §28 -&gt; 1h in Oktober",
+    "comment": "Fall Basharat §28 -> 1h in Oktober",
     "has person": "+",
     "names": [
       "Basharat"
@@ -29649,7 +29476,7 @@
     "names": [
       "dirk",
       "schmidt",
-      "fr kerschke"
+      "kerschke"
     ]
   },
   {
@@ -29662,14 +29489,13 @@
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Schneider"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Fall Schneider/ Grüsner ausgelaufen",
     "has person": "+",
     "names": [
-      "Schneider/ Grüßner"
+      "Schneider",
+      "Grüsner"
     ]
   },
   {
@@ -29752,8 +29578,10 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Rostock"
+    ],
     "comment": "Notaufnahme Uni-Klinik Rostock",
     "has person": "-"
   },
@@ -29818,9 +29646,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Marie"
-    ],
+    "ner_names": [],
     "comment": "Walrunde Marie, Begleitung zur WG, Fach. Austausch",
     "has person": "+",
     "names": [
@@ -29854,7 +29680,7 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Tübbesing -&gt; 1,75h in Dez",
+    "comment": "Fall Tübbesing -> 1,75h in Dez  gerichtliche Schreiben",
     "has person": "+",
     "names": [
       "Tübbesing"
@@ -29929,19 +29755,19 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": " HPG ",
+    "comment": "HPG ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": " HPG ",
+    "comment": "HPG ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": " HPG ",
+    "comment": "HPG ",
     "has person": "-"
   },
   {
@@ -29988,27 +29814,25 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Informationsaustausch",
+    "comment": "Informationsaustausch ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Teamsitzung",
+    "comment": "Teamsitzung ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Teamsitzung",
+    "comment": "Teamsitzung ",
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "Kita Khalila"
-    ],
-    "comment": "Kita Khalila",
+    "type": "TP",
+    "ner_names": [],
+    "comment": "Kita Khalila ",
     "has person": "+",
     "names": [
       "Khalila"
@@ -30017,33 +29841,31 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Sozialamt",
+    "comment": "Sozialamt ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "akt. Situation",
+    "comment": "akt. Situation ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "akt. Situation",
+    "comment": "akt. Situation ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "akt. Situation",
+    "comment": "akt. Situation ",
     "has person": "-"
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Gradt"
-    ],
-    "comment": "akt. Situation, Treffen KM mit Frau Gradt",
+    "ner_names": [],
+    "comment": "akt. Situation, Treffen KM mit Frau Gradt ",
     "has person": "+",
     "names": [
       "Gradt"
@@ -30122,10 +29944,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Ospa Erbschein"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Ospa Erbschein",
     "has person": "-"
   },
@@ -30138,7 +29958,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": " HPG",
+    "comment": "HPG",
     "has person": "-"
   },
   {
@@ -30223,17 +30043,51 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung Netzwerkarbeit Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Aktivität Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Fachaustausch Telefonate ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung  ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Netzwerkarbeit Telefonate Beratung ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Beratung Telefonate ",
     "has person": "-"
   },
   {
@@ -30245,73 +30099,37 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "kurzfristig abgesagter Termin Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Fachaustausch",
+    "comment": "Fachaustausch Telefonat",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Fachaustausch ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Netzwerkarbeit",
+    "comment": "Fachaustausch ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Aktivität",
+    "comment": "Telefonate Beratung",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Fachaustausch",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Fachaustausch",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Fachaustausch",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Telefonate",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Telefonate",
+    "comment": "Telefonate Aktivität",
     "has person": "-"
   },
   {
@@ -30323,7 +30141,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "kurzfristig abgesagter Termin",
+    "comment": "kurzfristig abgesagter Termin Telefonate ",
     "has person": "-"
   },
   {
@@ -30388,9 +30206,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Rieck"
-    ],
+    "ner_names": [],
     "comment": "Fall EB von Mareen, Fam. Rieck",
     "has person": "+",
     "names": [
@@ -30443,18 +30259,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -30463,7 +30275,7 @@
     "ner_names": [
       "Stoll"
     ],
-    "comment": "Fall Stoll",
+    "comment": "Fall Stoll  Doku",
     "has person": "+",
     "names": [
       "Stoll"
@@ -30488,14 +30300,18 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Juli"
+    ],
     "comment": "6h aus Juli",
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "August"
+    ],
     "comment": "2h aus August",
     "has person": "-"
   },
@@ -30506,14 +30322,18 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "August"
+    ],
     "comment": "0,5h aus August",
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "August"
+    ],
     "comment": "4,5h aus August",
     "has person": "-"
   },
@@ -30580,7 +30400,7 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Supervision von PPSB Hamburg, Hälfte der Rechnung (490,00€) in Rechnung (245,00€) gestellt",
+    "comment": "Supervision von PPSB Hamburg, Hälfte der Rechnung (490,00€) in Rechnung (245,00€) gestellt ",
     "has person": "-"
   },
   {
@@ -30588,7 +30408,7 @@
     "ner_names": [
       "Stoll"
     ],
-    "comment": "Fall Stoll",
+    "comment": "Fall Stoll  etzwerkarbeit,Beratung, Aktivität ",
     "has person": "+",
     "names": [
       "Stoll"
@@ -30601,18 +30421,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, Fachaustausch, Telefonat",
     "has person": "-"
   },
@@ -30637,52 +30453,57 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Familienkasse - Kindergeld, A&amp; V, Sozialkaufhäuser",
+    "comment": "Familienkasse - Kindergeld, A& V, Sozialkaufhäuser",
     "has person": "-"
   },
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Bardehel/ Treite -&gt; h werden in 2017 verrechnet",
+    "comment": "Fall Bardehel/ Treite -> h werden in 2017 verrechnet",
     "has person": "+",
     "names": [
-      "Bardehel/ Treite"
+      "Bardehel",
+      "Treite"
     ]
   },
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Bardehel/ Treite -&gt; h werden in 2017 verrechnet",
+    "comment": "Fall Bardehel/ Treite -> h werden in 2017 verrechnet",
     "has person": "+",
     "names": [
-      "Bardehel/ Treite"
+      "Bardehel",
+      "Treite"
     ]
   },
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Bardehel/ Treite -&gt; h werden in 2017 verrechnet",
+    "comment": "Fall Bardehel/ Treite -> h werden in 2017 verrechnet",
     "has person": "+",
     "names": [
-      "Bardehel/ Treite"
+      "Bardehel",
+      "Treite"
     ]
   },
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Bardehel/ Treite -&gt; h werden in 2017 verrechnet",
+    "comment": "Fall Bardehel/ Treite -> h werden in 2017 verrechnet",
     "has person": "+",
     "names": [
-      "Bardehel/ Treite"
+      "Bardehel",
+      "Treite"
     ]
   },
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Bardehel/ Treite -&gt; h werden in 2017 verrechnet",
+    "comment": "Fall Bardehel/ Treite -> h werden in 2017 verrechnet",
     "has person": "+",
     "names": [
-      "Bardehel/ Treite"
+      "Bardehel",
+      "Treite"
     ]
   },
   {
@@ -30716,10 +30537,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -30782,10 +30601,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Angelika"
-    ],
-    "comment": "Termin Angelika, Fachaustausch zu psych. Symptome der Familie, Begleitung in die Häuslichkeit",
+    "ner_names": [],
+    "comment": "Termin Angelika, Fachaustausch zu psych. Symptome der Familie, Begleitung in die Häuslichkeit ",
     "has person": "+",
     "names": [
       "Angelika"
@@ -30798,18 +30615,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Ospa"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Ospa, Erbschein, Regelung Kredite",
     "has person": "-"
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Jutta"
-    ],
+    "ner_names": [],
     "comment": "nach separaten Terminen GE, Austausch mit Jutta und Bärbel",
     "has person": "+",
     "names": [
@@ -30908,7 +30721,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Nick"
+    ],
     "comment": "Hort Nick abholen",
     "has person": "+",
     "names": [
@@ -30960,55 +30775,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung praktische Unterstützung Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Telefonate",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Aktivität",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Beratung/ Begleitung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "nicht erschienen zum Termin",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "HPG",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Fachaustausch",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Beratung",
-    "has person": "-"
-  },
-  {
-    "type": "TN",
-    "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Telefonate Aktivität",
     "has person": "-"
   },
   {
@@ -31020,25 +30793,67 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung/ Begleitung ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "nicht erschienen zum Termin ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "medienpädagogische Aktivität",
+    "comment": "HPG ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "abgesagter Termin",
+    "comment": "Fachaustausch ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Netzwerkarbeit Telefonate ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Aktivität Telefonate ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Aktivität Telefonate ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Telefonate ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Beratung Telefonate Netzwerkarbeit ",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "medienpädagogische Aktivität Telefonate",
+    "has person": "-"
+  },
+  {
+    "type": "TN",
+    "ner_names": [],
+    "comment": "abgesagter Termin Telefonate",
     "has person": "-"
   },
   {
@@ -31099,9 +30914,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Christopher Ebert"
+      "Christopher",
+      "Dirk"
     ],
     "comment": "Christopher Ebert, SE, mit Dirk abgesprochen",
     "has person": "+",
@@ -31165,110 +30981,90 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, Beratung",
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
+    "type": "TP",
+    "ner_names": [],
     "comment": "Schulbegleitung L. Matiske",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
@@ -31290,14 +31086,14 @@
     "has person": "-"
   },
   {
-    "type": "FN",
+    "type": "TP",
     "ner_names": [
       "Haase"
     ],
     "comment": "zur Praxis Dr. Haase",
     "has person": "+",
     "names": [
-      "Dr. Haase"
+      "Haase"
     ]
   },
   {
@@ -31325,21 +31121,18 @@
     "has person": "-"
   },
   {
-    "type": "FN",
-    "ner_names": [
-      "L. Matiske"
-    ],
-    "comment": "Schulbegleitung L. Matiske",
+    "type": "TP",
+    "ner_names": [],
+    "comment": "Schulbegleitung L. Matiske sowie Wochentreffaktivität",
     "has person": "+",
     "names": [
-      "L.Matiske"
+      "L. Matiske"
     ]
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Mück",
-      "Sophie Dencker"
+      "Sophie"
     ],
     "comment": "Fam. Mück, Fall von Sophie Dencker",
     "has person": "+",
@@ -31350,9 +31143,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Harner"
-    ],
+    "ner_names": [],
     "comment": "Fam. Harner, Erstberatung EB",
     "has person": "+",
     "names": [
@@ -31378,10 +31169,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -31414,7 +31203,7 @@
     "ner_names": [
       "Stoll"
     ],
-    "comment": "Fall Stoll",
+    "comment": "Fall Stoll  Begleitung, Beratung",
     "has person": "+",
     "names": [
       "Stoll"
@@ -31425,7 +31214,7 @@
     "ner_names": [
       "Stoll"
     ],
-    "comment": "Fall Stoll",
+    "comment": "Fall Stoll  Telefonat, Aktivität",
     "has person": "+",
     "names": [
       "Stoll"
@@ -31450,10 +31239,8 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku, ",
     "has person": "-"
   },
@@ -31570,7 +31357,9 @@
   },
   {
     "type": "TP",
-    "ner_names": [],
+    "ner_names": [
+      "Horn"
+    ],
     "comment": "Praxis Horn weitere Absprachen",
     "has person": "+",
     "names": [
@@ -31584,16 +31373,17 @@
     "has person": "-"
   },
   {
-    "type": "TN",
-    "ner_names": [],
+    "type": "FP",
+    "ner_names": [
+      "Rostock"
+    ],
     "comment": "Wohnung, Sachen+ Dokumente aus der Wohnung holen, nach Rostock fahren",
     "has person": "-"
   },
   {
     "type": "TP",
     "ner_names": [
-      "Nadine",
-      "Sobotta"
+      "Nadine"
     ],
     "comment": "Nadine Nachrichten von Herrn Sobotta, ",
     "has person": "+",
@@ -31615,9 +31405,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Röseler"
-    ],
+    "ner_names": [],
     "comment": "Behördenunterlagen ordnen und ausfüllen mit Frau Röseler",
     "has person": "+",
     "names": [
@@ -31626,10 +31414,8 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Röseler"
-    ],
-    "comment": "DBR-Rostock-DBR, Frau Röseler mit beiden Kindern abholen und zurück,",
+    "ner_names": [],
+    "comment": "DBR-Rostock-DBR, Frau Röseler mit beiden Kindern abholen und zurück, Unterlagen mit Frau Röseler ordnen ",
     "has person": "+",
     "names": [
       "Röseler"
@@ -31662,37 +31448,37 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Supervision",
+    "comment": "Supervision ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Supervision",
+    "comment": "Supervision ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Supervision, Fachteam",
+    "comment": "Supervision, Fachteam ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Teamsitzung",
+    "comment": "Teamsitzung ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Teamsitzung",
+    "comment": "Teamsitzung ",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Terminabsprachen",
+    "comment": "Terminabsprachen ",
     "has person": "-"
   },
   {
@@ -31712,7 +31498,7 @@
     "ner_names": [
       "Stoll"
     ],
-    "comment": "Fall Stoll",
+    "comment": "Fall Stoll  Netzwerkarbeit ",
     "has person": "+",
     "names": [
       "Stoll"
@@ -31948,10 +31734,11 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Bardehel/ Treite -&gt; h werden in 2017 verrechnet",
+    "comment": "Fall Bardehel/ Treite -> h werden in 2017 verrechnet",
     "has person": "+",
     "names": [
-      "Bardehel/ Treite"
+      "Bardehel",
+      "Treite"
     ]
   },
   {
@@ -31962,9 +31749,7 @@
   },
   {
     "type": "TP",
-    "ner_names": [
-      "Möller"
-    ],
+    "ner_names": [],
     "comment": "Fall Möller, JA Toitenwinkel, Bewilligung folgt",
     "has person": "+",
     "names": [
@@ -31984,18 +31769,14 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -32092,10 +31873,11 @@
   {
     "type": "TP",
     "ner_names": [],
-    "comment": "Fall Bardehel/ Treite -&gt; h werden in 2017 verrechnet",
+    "comment": "Fall Bardehel/ Treite -> h werden in 2017 verrechnet",
     "has person": "+",
     "names": [
-      "Bardehel/ Treite"
+      "Bardehel",
+      "Treite"
     ]
   },
   {
@@ -32165,9 +31947,10 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Eric Niklas"
+      "Eric",
+      "Niklas"
     ],
     "comment": "Gespräch mit Eric Niklas",
     "has person": "+",
@@ -32214,7 +31997,6 @@
   {
     "type": "TP",
     "ner_names": [
-      "Tim",
       "Ben"
     ],
     "comment": "Fokus auf Tim, damit KM Zeit für Ben hat, KM Einkauf",
@@ -32416,13 +32198,13 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": " Netzwerkarbeit",
+    "comment": "Netzwerkarbeit",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": " Netzwerkarbeit",
+    "comment": "Netzwerkarbeit",
     "has person": "-"
   },
   {
@@ -32444,26 +32226,20 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
+    "type": "TN",
+    "ner_names": [],
     "comment": "Doku",
     "has person": "-"
   },
@@ -32486,11 +32262,9 @@
     "has person": "-"
   },
   {
-    "type": "FP",
-    "ner_names": [
-      "Doku"
-    ],
-    "comment": " Doku",
+    "type": "TN",
+    "ner_names": [],
+    "comment": "Doku",
     "has person": "-"
   },
   {
@@ -32530,10 +32304,9 @@
     "has person": "-"
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Angeline Graudenz",
-      "Antje Siekmeier"
+      "Angeline"
     ],
     "comment": "Fall Angeline Graudenz von Antje Siekmeier",
     "has person": "+",
@@ -32543,8 +32316,11 @@
     ]
   },
   {
-    "type": "TP",
-    "ner_names": [],
+    "type": "FN",
+    "ner_names": [
+      "Christopher",
+      "Dirk"
+    ],
     "comment": "SE Christopher Ebert, mit Dirk besprochen ",
     "has person": "+",
     "names": [
@@ -32553,9 +32329,10 @@
     ]
   },
   {
-    "type": "TP",
+    "type": "FN",
     "ner_names": [
-      "Beatrice Ehrler"
+      "Dirk",
+      "Beatrice"
     ],
     "comment": "Mit Dirk besprochen, SE Beatrice Ehrler",
     "has person": "+",
@@ -32591,25 +32368,25 @@
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung praktische Unterstützung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung praktische Unterstützung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Beratung",
+    "comment": "Beratung praktische Unterstützung Telefonate",
     "has person": "-"
   },
   {
     "type": "TN",
     "ner_names": [],
-    "comment": "Dokumentation",
+    "comment": "Dokumentation Beratung Telefonate",
     "has person": "-"
   },
   {

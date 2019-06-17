@@ -3,12 +3,15 @@ const progress = require('progressbar').create();
 const utils = require('../utils');
 
 const dictNames = [
-    path.resolve("./data/dictionary_names.csv"),
-    path.resolve("./data/dictionary_surnames.csv")
+    path.resolve("./source/dictionary_names.csv"),
+    path.resolve("./source/dictionary_surnames.csv")
 ];
 
-const inputFile = path.resolve("./data/dataset.json");
-const outputFile = path.resolve("./data/dataset_dictionary.json");
+let inputFile = process.argv.indexOf("--input") > -1 ? process.argv[process.argv.indexOf("--input") + 1] : "./data/dataset.json";
+let outputFile = process.argv.indexOf("--output") > -1 ? process.argv[process.argv.indexOf("--output") + 1] : "./data/dataset_dictionary.json";
+
+inputFile = path.resolve(inputFile);
+outputFile = path.resolve(outputFile);
 
 let matchNames = (arr1, arr2) => {
     for (let i in arr2) {

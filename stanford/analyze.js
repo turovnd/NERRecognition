@@ -3,8 +3,12 @@ const path = require('path');
 const progress = require('progressbar').create();
 const utils = require('../utils');
 
-const inputFile = path.resolve("./data/dataset.json");
-const outputFile = path.resolve("./data/dataset_stanford.json");
+let inputFile = process.argv.indexOf("--input") > -1 ? process.argv[process.argv.indexOf("--input") + 1] : "./data/dataset.json";
+let outputFile = process.argv.indexOf("--output") > -1 ? process.argv[process.argv.indexOf("--output") + 1] : "./data/dataset_stanford.json";
+
+inputFile = path.resolve(inputFile);
+outputFile = path.resolve(outputFile);
+
 const serverUrl = "http://localhost:9000";
 
 let attempt = 0;
