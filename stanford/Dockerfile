@@ -21,7 +21,7 @@ LABEL version="3.9.2"
 RUN apk update && apk add openjdk8-jre-base
 
 WORKDIR /data/corenlp
-COPY --from=builder /source .
+COPY --from=builder /data/corenlp .
 
 ENV JAVA_XMX 4g
 ENV PORT 9000
