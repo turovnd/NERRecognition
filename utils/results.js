@@ -23,10 +23,16 @@ let init = async () => {
     let recall = matrix["TP"] / (matrix["TP"] + matrix["FN"]);
     let precision = matrix["TP"] / (matrix["TP"] + matrix["FP"]);
     let FMeasure = 2 * recall * precision / ( recall + precision );
-    console.log(JSON.stringify(matrix));
-    console.log("Recall: " + recall);
-    console.log("Precision: " + precision);
-    console.log("FMeasure: " + FMeasure);
+    let Accuracy = (matrix["TP"] + matrix["TN"]) / (matrix["TP"] + matrix["FP"] + matrix["FN"] + matrix["TN"]);
+
+    console.log("\t\tTrue\tFalse");
+    console.log("Positive\t" + matrix["TP"] + "\t" + matrix["FP"]);
+    console.log("Negative\t" + matrix["TN"] + "\t" + matrix["FN"]);
+    console.log("");
+    console.log("Recall:\t\t" + recall.toFixed(4));
+    console.log("Precision:\t" + precision.toFixed(4));
+    console.log("FMeasure:\t" + FMeasure.toFixed(4));
+    console.log("Accuracy:\t" + Accuracy.toFixed(4));
 };
 
 init();
