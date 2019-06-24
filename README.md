@@ -11,6 +11,7 @@ Three different frameworks were used for compare results of NER recognition (onl
 
 ## Dataset
 The dataset is a XLSX file in the format presented bellow. Your data should be set in the first list in the XLSX file.
+
 |   comment                         | has person |      names
 |---------------------------------- | :--------: | :-----------------:
 |Freizeitaktivität                  |      -     |   
@@ -128,6 +129,7 @@ TN - number of ordinary words that were marked as ordinary words by the model
 ```
 
 ### The results
+
 |  ID |     Method       |      Dataset     | F-measure  | Accuracy   
 | --- | ---------------- | ---------------- | :--------: | :---------:
 |  1  | Stanford         | with spelling    | 0.8345     | 0.9678
